@@ -9901,7 +9901,7 @@ world
             "id" "2621"
             "plane" "(98.00 104.00 0.00) (98.00 104.00 252.00) (104.00 98.00 252.00)"
             "material" "c_tnnl_ccrete"
-            "uaxis" "[0.707118 -0.707095 0.00 463.8643] 1.00"
+            "uaxis" "[0.707119 -0.707095 0.00 463.8643] 1.00"
             "vaxis" "[0.00 0.00 -1.00 0.00] 1.00"
             "rotation" "0"
             "lightmapscale" "0"
@@ -10815,44 +10815,6 @@ world
         "id" "454"
         side
         {
-            "id" "2654"
-            "plane" "(160.00 -264.00 176.00) (416.00 -264.00 176.00) (416.00 -264.00 -8.00)"
-            "material" "c_tnnl_ccrete"
-            "uaxis" "[1.00 0.00 0.00 0.00] 1.00"
-            "vaxis" "[0.00 0.00 -1.00 0.00] 1.00"
-            "rotation" "0"
-            "lightmapscale" "0"
-            "smoothing_groups" ""
-            vertex
-            {
-                "count" "4"
-                "vertex0" "160.00 -264.00 176.00"
-                "vertex1" "416.00 -264.00 176.00"
-                "vertex2" "416.00 -264.00 -8.00"
-                "vertex3" "160.00 -264.00 -8.00"
-            }
-        }
-        side
-        {
-            "id" "2655"
-            "plane" "(416.00 -256.00 176.00) (160.00 -256.00 176.00) (160.00 -256.00 -8.00)"
-            "material" "c_tnnl_ccrete"
-            "uaxis" "[-1.00 0.00 0.00 0.00] 1.00"
-            "vaxis" "[0.00 0.00 -1.00 0.00] 1.00"
-            "rotation" "0"
-            "lightmapscale" "0"
-            "smoothing_groups" ""
-            vertex
-            {
-                "count" "4"
-                "vertex0" "416.00 -256.00 176.00"
-                "vertex1" "160.00 -256.00 176.00"
-                "vertex2" "160.00 -256.00 -8.00"
-                "vertex3" "416.00 -256.00 -8.00"
-            }
-        }
-        side
-        {
             "id" "2656"
             "plane" "(160.00 -256.00 176.00) (160.00 -264.00 176.00) (160.00 -264.00 -8.00)"
             "material" "c_tnnl_ccrete"
@@ -10925,6 +10887,44 @@ world
                 "vertex1" "416.00 -264.00 -8.00"
                 "vertex2" "416.00 -256.00 -8.00"
                 "vertex3" "160.00 -256.00 -8.00"
+            }
+        }
+        side
+        {
+            "id" "2654"
+            "plane" "(160.00 -264.00 176.00) (416.00 -264.00 176.00) (416.00 -264.00 -8.00)"
+            "material" "cxbrickk"
+            "uaxis" "[1.00 0.00 0.00 656.00] 1.00"
+            "vaxis" "[0.00 0.00 -1.00 144.00] 1.00"
+            "rotation" "0"
+            "lightmapscale" "0"
+            "smoothing_groups" ""
+            vertex
+            {
+                "count" "4"
+                "vertex0" "160.00 -264.00 176.00"
+                "vertex1" "416.00 -264.00 176.00"
+                "vertex2" "416.00 -264.00 -8.00"
+                "vertex3" "160.00 -264.00 -8.00"
+            }
+        }
+        side
+        {
+            "id" "2655"
+            "plane" "(416.00 -256.00 176.00) (160.00 -256.00 176.00) (160.00 -256.00 -8.00)"
+            "material" "-0wlstucco"
+            "uaxis" "[-1.00 0.00 0.00 656.00] 1.00"
+            "vaxis" "[0.00 0.00 -1.00 144.00] 1.00"
+            "rotation" "0"
+            "lightmapscale" "0"
+            "smoothing_groups" ""
+            vertex
+            {
+                "count" "4"
+                "vertex0" "416.00 -256.00 176.00"
+                "vertex1" "160.00 -256.00 176.00"
+                "vertex2" "160.00 -256.00 -8.00"
+                "vertex3" "416.00 -256.00 -8.00"
             }
         }
         editor
@@ -11043,6 +11043,258 @@ world
     }
     solid
     {
+        "id" "455"
+        side
+        {
+            "id" "2660"
+            "plane" "(368.00 -112.00 0.00) (480.00 -112.00 0.00) (480.00 -80.00 0.00)"
+            "material" "oldwood"
+            "uaxis" "[0.00 -1.00 0.00 144.00] 1.00"
+            "vaxis" "[1.00 0.00 0.00 -448.00] 1.00"
+            "rotation" "90"
+            "lightmapscale" "0"
+            "smoothing_groups" ""
+            vertex
+            {
+                "count" "4"
+                "vertex0" "368.00 -112.00 0.00"
+                "vertex1" "480.00 -112.00 0.00"
+                "vertex2" "480.00 -80.00 0.00"
+                "vertex3" "368.00 -80.00 0.00"
+            }
+        }
+        side
+        {
+            "id" "2661"
+            "plane" "(368.00 -112.00 24.00) (480.00 -112.00 24.00) (480.00 -112.00 0.00)"
+            "material" "oldwood"
+            "uaxis" "[0.00 0.00 -1.00 -480.00] 0.30"
+            "vaxis" "[-1.00 0.00 0.00 -160.00] 0.30"
+            "rotation" "90"
+            "lightmapscale" "0"
+            "smoothing_groups" ""
+            vertex
+            {
+                "count" "4"
+                "vertex0" "368.00 -112.00 24.00"
+                "vertex1" "480.00 -112.00 24.00"
+                "vertex2" "480.00 -112.00 0.00"
+                "vertex3" "368.00 -112.00 0.00"
+            }
+        }
+        side
+        {
+            "id" "2662"
+            "plane" "(368.00 -80.00 24.00) (480.00 -80.00 24.00) (480.00 -112.00 24.00)"
+            "material" "oldwood"
+            "uaxis" "[0.00 -1.00 0.00 -480.00] 0.30"
+            "vaxis" "[-1.00 0.00 0.00 -1440.00] 0.30"
+            "rotation" "90"
+            "lightmapscale" "0"
+            "smoothing_groups" ""
+            vertex
+            {
+                "count" "4"
+                "vertex0" "368.00 -80.00 24.00"
+                "vertex1" "480.00 -80.00 24.00"
+                "vertex2" "480.00 -112.00 24.00"
+                "vertex3" "368.00 -112.00 24.00"
+            }
+        }
+        side
+        {
+            "id" "2663"
+            "plane" "(368.00 -80.00 24.00) (368.00 -112.00 24.00) (368.00 -112.00 0.00)"
+            "material" "oldwood"
+            "uaxis" "[0.00 0.00 -1.00 -1440.00] 0.30"
+            "vaxis" "[0.00 1.00 0.00 -160.00] 0.30"
+            "rotation" "90"
+            "lightmapscale" "0"
+            "smoothing_groups" ""
+            vertex
+            {
+                "count" "4"
+                "vertex0" "368.00 -80.00 24.00"
+                "vertex1" "368.00 -112.00 24.00"
+                "vertex2" "368.00 -112.00 0.00"
+                "vertex3" "368.00 -80.00 0.00"
+            }
+        }
+        side
+        {
+            "id" "2664"
+            "plane" "(480.00 -112.00 24.00) (480.00 -80.00 24.00) (480.00 -80.00 0.00)"
+            "material" "oldwood"
+            "uaxis" "[0.00 0.00 -1.00 1440.00] 0.30"
+            "vaxis" "[0.00 -1.00 0.00 -160.00] 0.30"
+            "rotation" "90"
+            "lightmapscale" "0"
+            "smoothing_groups" ""
+            vertex
+            {
+                "count" "4"
+                "vertex0" "480.00 -112.00 24.00"
+                "vertex1" "480.00 -80.00 24.00"
+                "vertex2" "480.00 -80.00 0.00"
+                "vertex3" "480.00 -112.00 0.00"
+            }
+        }
+        side
+        {
+            "id" "2665"
+            "plane" "(480.00 -80.00 24.00) (368.00 -80.00 24.00) (368.00 -80.00 0.00)"
+            "material" "oldwood"
+            "uaxis" "[0.00 0.00 -1.00 480.00] 0.30"
+            "vaxis" "[1.00 0.00 0.00 -160.00] 0.30"
+            "rotation" "90"
+            "lightmapscale" "0"
+            "smoothing_groups" ""
+            vertex
+            {
+                "count" "4"
+                "vertex0" "480.00 -80.00 24.00"
+                "vertex1" "368.00 -80.00 24.00"
+                "vertex2" "368.00 -80.00 0.00"
+                "vertex3" "480.00 -80.00 0.00"
+            }
+        }
+        editor
+        {
+            "color" "0 175 209"
+            "parentid" "1"
+            "groupid" "0"
+            "visgroupshown" "1"
+            "visgroupautoshown" "1"
+        }
+    }
+    solid
+    {
+        "id" "456"
+        side
+        {
+            "id" "2666"
+            "plane" "(104.00 -112.00 0.00) (216.00 -112.00 0.00) (216.00 -80.00 0.00)"
+            "material" "oldwood"
+            "uaxis" "[0.00 -1.00 0.00 144.00] 1.00"
+            "vaxis" "[1.00 0.00 0.00 -184.00] 1.00"
+            "rotation" "90"
+            "lightmapscale" "0"
+            "smoothing_groups" ""
+            vertex
+            {
+                "count" "4"
+                "vertex0" "104.00 -112.00 0.00"
+                "vertex1" "216.00 -112.00 0.00"
+                "vertex2" "216.00 -80.00 0.00"
+                "vertex3" "104.00 -80.00 0.00"
+            }
+        }
+        side
+        {
+            "id" "2667"
+            "plane" "(104.00 -112.00 24.00) (216.00 -112.00 24.00) (216.00 -112.00 0.00)"
+            "material" "oldwood"
+            "uaxis" "[0.00 0.00 -1.00 -480.00] 0.30"
+            "vaxis" "[-1.00 0.00 0.00 -1040.00] 0.30"
+            "rotation" "90"
+            "lightmapscale" "0"
+            "smoothing_groups" ""
+            vertex
+            {
+                "count" "4"
+                "vertex0" "104.00 -112.00 24.00"
+                "vertex1" "216.00 -112.00 24.00"
+                "vertex2" "216.00 -112.00 0.00"
+                "vertex3" "104.00 -112.00 0.00"
+            }
+        }
+        side
+        {
+            "id" "2668"
+            "plane" "(104.00 -80.00 24.00) (216.00 -80.00 24.00) (216.00 -112.00 24.00)"
+            "material" "oldwood"
+            "uaxis" "[0.00 -1.00 0.00 -480.00] 0.30"
+            "vaxis" "[-1.00 0.00 0.00 -2320.00] 0.30"
+            "rotation" "90"
+            "lightmapscale" "0"
+            "smoothing_groups" ""
+            vertex
+            {
+                "count" "4"
+                "vertex0" "104.00 -80.00 24.00"
+                "vertex1" "216.00 -80.00 24.00"
+                "vertex2" "216.00 -112.00 24.00"
+                "vertex3" "104.00 -112.00 24.00"
+            }
+        }
+        side
+        {
+            "id" "2669"
+            "plane" "(104.00 -80.00 24.00) (104.00 -112.00 24.00) (104.00 -112.00 0.00)"
+            "material" "oldwood"
+            "uaxis" "[0.00 0.00 -1.00 -1440.00] 0.30"
+            "vaxis" "[0.00 1.00 0.00 -160.00] 0.30"
+            "rotation" "90"
+            "lightmapscale" "0"
+            "smoothing_groups" ""
+            vertex
+            {
+                "count" "4"
+                "vertex0" "104.00 -80.00 24.00"
+                "vertex1" "104.00 -112.00 24.00"
+                "vertex2" "104.00 -112.00 0.00"
+                "vertex3" "104.00 -80.00 0.00"
+            }
+        }
+        side
+        {
+            "id" "2670"
+            "plane" "(216.00 -112.00 24.00) (216.00 -80.00 24.00) (216.00 -80.00 0.00)"
+            "material" "oldwood"
+            "uaxis" "[0.00 0.00 -1.00 1440.00] 0.30"
+            "vaxis" "[0.00 -1.00 0.00 -160.00] 0.30"
+            "rotation" "90"
+            "lightmapscale" "0"
+            "smoothing_groups" ""
+            vertex
+            {
+                "count" "4"
+                "vertex0" "216.00 -112.00 24.00"
+                "vertex1" "216.00 -80.00 24.00"
+                "vertex2" "216.00 -80.00 0.00"
+                "vertex3" "216.00 -112.00 0.00"
+            }
+        }
+        side
+        {
+            "id" "2671"
+            "plane" "(216.00 -80.00 24.00) (104.00 -80.00 24.00) (104.00 -80.00 0.00)"
+            "material" "oldwood"
+            "uaxis" "[0.00 0.00 -1.00 480.00] 0.30"
+            "vaxis" "[1.00 0.00 0.00 719.9999] 0.30"
+            "rotation" "90"
+            "lightmapscale" "0"
+            "smoothing_groups" ""
+            vertex
+            {
+                "count" "4"
+                "vertex0" "216.00 -80.00 24.00"
+                "vertex1" "104.00 -80.00 24.00"
+                "vertex2" "104.00 -80.00 0.00"
+                "vertex3" "216.00 -80.00 0.00"
+            }
+        }
+        editor
+        {
+            "color" "0 175 209"
+            "parentid" "1"
+            "groupid" "0"
+            "visgroupshown" "1"
+            "visgroupautoshown" "1"
+        }
+    }
+    solid
+    {
         "id" "179"
         side
         {
@@ -11140,6 +11392,258 @@ world
         editor
         {
             "color" "0 144 154"
+            "parentid" "1"
+            "groupid" "0"
+            "visgroupshown" "1"
+            "visgroupautoshown" "1"
+        }
+    }
+    solid
+    {
+        "id" "457"
+        side
+        {
+            "id" "2672"
+            "plane" "(104.00 -32.00 0.00) (216.00 -32.00 0.00) (216.00 0.00 0.00)"
+            "material" "oldwood"
+            "uaxis" "[0.00 -1.00 0.00 224.00] 1.00"
+            "vaxis" "[1.00 0.00 0.00 -184.00] 1.00"
+            "rotation" "90"
+            "lightmapscale" "0"
+            "smoothing_groups" ""
+            vertex
+            {
+                "count" "4"
+                "vertex0" "104.00 -32.00 0.00"
+                "vertex1" "216.00 -32.00 0.00"
+                "vertex2" "216.00 0.00 0.00"
+                "vertex3" "104.00 0.00 0.00"
+            }
+        }
+        side
+        {
+            "id" "2673"
+            "plane" "(104.00 -32.00 24.00) (216.00 -32.00 24.00) (216.00 -32.00 0.00)"
+            "material" "oldwood"
+            "uaxis" "[0.00 0.00 -1.00 -480.00] 0.30"
+            "vaxis" "[-1.00 0.00 0.00 -1040.00] 0.30"
+            "rotation" "90"
+            "lightmapscale" "0"
+            "smoothing_groups" ""
+            vertex
+            {
+                "count" "4"
+                "vertex0" "104.00 -32.00 24.00"
+                "vertex1" "216.00 -32.00 24.00"
+                "vertex2" "216.00 -32.00 0.00"
+                "vertex3" "104.00 -32.00 0.00"
+            }
+        }
+        side
+        {
+            "id" "2674"
+            "plane" "(104.00 0.00 24.00) (216.00 0.00 24.00) (216.00 -32.00 24.00)"
+            "material" "oldwood"
+            "uaxis" "[0.00 -1.00 0.00 -213.3333] 0.30"
+            "vaxis" "[-1.00 0.00 0.00 -2320.00] 0.30"
+            "rotation" "90"
+            "lightmapscale" "0"
+            "smoothing_groups" ""
+            vertex
+            {
+                "count" "4"
+                "vertex0" "104.00 0.00 24.00"
+                "vertex1" "216.00 0.00 24.00"
+                "vertex2" "216.00 -32.00 24.00"
+                "vertex3" "104.00 -32.00 24.00"
+            }
+        }
+        side
+        {
+            "id" "2675"
+            "plane" "(104.00 0.00 24.00) (104.00 -32.00 24.00) (104.00 -32.00 0.00)"
+            "material" "oldwood"
+            "uaxis" "[0.00 0.00 -1.00 -1440.00] 0.30"
+            "vaxis" "[0.00 1.00 0.00 -426.6667] 0.30"
+            "rotation" "90"
+            "lightmapscale" "0"
+            "smoothing_groups" ""
+            vertex
+            {
+                "count" "4"
+                "vertex0" "104.00 0.00 24.00"
+                "vertex1" "104.00 -32.00 24.00"
+                "vertex2" "104.00 -32.00 0.00"
+                "vertex3" "104.00 0.00 0.00"
+            }
+        }
+        side
+        {
+            "id" "2676"
+            "plane" "(216.00 -32.00 24.00) (216.00 0.00 24.00) (216.00 0.00 0.00)"
+            "material" "oldwood"
+            "uaxis" "[0.00 0.00 -1.00 1440.00] 0.30"
+            "vaxis" "[0.00 -1.00 0.00 106.6667] 0.30"
+            "rotation" "90"
+            "lightmapscale" "0"
+            "smoothing_groups" ""
+            vertex
+            {
+                "count" "4"
+                "vertex0" "216.00 -32.00 24.00"
+                "vertex1" "216.00 0.00 24.00"
+                "vertex2" "216.00 0.00 0.00"
+                "vertex3" "216.00 -32.00 0.00"
+            }
+        }
+        side
+        {
+            "id" "2677"
+            "plane" "(216.00 0.00 24.00) (104.00 0.00 24.00) (104.00 0.00 0.00)"
+            "material" "oldwood"
+            "uaxis" "[0.00 0.00 -1.00 480.00] 0.30"
+            "vaxis" "[1.00 0.00 0.00 719.9999] 0.30"
+            "rotation" "90"
+            "lightmapscale" "0"
+            "smoothing_groups" ""
+            vertex
+            {
+                "count" "4"
+                "vertex0" "216.00 0.00 24.00"
+                "vertex1" "104.00 0.00 24.00"
+                "vertex2" "104.00 0.00 0.00"
+                "vertex3" "216.00 0.00 0.00"
+            }
+        }
+        editor
+        {
+            "color" "0 175 209"
+            "parentid" "1"
+            "groupid" "0"
+            "visgroupshown" "1"
+            "visgroupautoshown" "1"
+        }
+    }
+    solid
+    {
+        "id" "458"
+        side
+        {
+            "id" "2678"
+            "plane" "(368.00 -32.00 0.00) (480.00 -32.00 0.00) (480.00 0.00 0.00)"
+            "material" "oldwood"
+            "uaxis" "[0.00 -1.00 0.00 224.00] 1.00"
+            "vaxis" "[1.00 0.00 0.00 -448.00] 1.00"
+            "rotation" "90"
+            "lightmapscale" "0"
+            "smoothing_groups" ""
+            vertex
+            {
+                "count" "4"
+                "vertex0" "368.00 -32.00 0.00"
+                "vertex1" "480.00 -32.00 0.00"
+                "vertex2" "480.00 0.00 0.00"
+                "vertex3" "368.00 0.00 0.00"
+            }
+        }
+        side
+        {
+            "id" "2679"
+            "plane" "(368.00 -32.00 24.00) (480.00 -32.00 24.00) (480.00 -32.00 0.00)"
+            "material" "oldwood"
+            "uaxis" "[0.00 0.00 -1.00 -480.00] 0.30"
+            "vaxis" "[-1.00 0.00 0.00 -160.00] 0.30"
+            "rotation" "90"
+            "lightmapscale" "0"
+            "smoothing_groups" ""
+            vertex
+            {
+                "count" "4"
+                "vertex0" "368.00 -32.00 24.00"
+                "vertex1" "480.00 -32.00 24.00"
+                "vertex2" "480.00 -32.00 0.00"
+                "vertex3" "368.00 -32.00 0.00"
+            }
+        }
+        side
+        {
+            "id" "2680"
+            "plane" "(368.00 0.00 24.00) (480.00 0.00 24.00) (480.00 -32.00 24.00)"
+            "material" "oldwood"
+            "uaxis" "[0.00 -1.00 0.00 -213.3333] 0.30"
+            "vaxis" "[-1.00 0.00 0.00 -1440.00] 0.30"
+            "rotation" "90"
+            "lightmapscale" "0"
+            "smoothing_groups" ""
+            vertex
+            {
+                "count" "4"
+                "vertex0" "368.00 0.00 24.00"
+                "vertex1" "480.00 0.00 24.00"
+                "vertex2" "480.00 -32.00 24.00"
+                "vertex3" "368.00 -32.00 24.00"
+            }
+        }
+        side
+        {
+            "id" "2681"
+            "plane" "(368.00 0.00 24.00) (368.00 -32.00 24.00) (368.00 -32.00 0.00)"
+            "material" "oldwood"
+            "uaxis" "[0.00 0.00 -1.00 -1440.00] 0.30"
+            "vaxis" "[0.00 1.00 0.00 -426.6667] 0.30"
+            "rotation" "90"
+            "lightmapscale" "0"
+            "smoothing_groups" ""
+            vertex
+            {
+                "count" "4"
+                "vertex0" "368.00 0.00 24.00"
+                "vertex1" "368.00 -32.00 24.00"
+                "vertex2" "368.00 -32.00 0.00"
+                "vertex3" "368.00 0.00 0.00"
+            }
+        }
+        side
+        {
+            "id" "2682"
+            "plane" "(480.00 -32.00 24.00) (480.00 0.00 24.00) (480.00 0.00 0.00)"
+            "material" "oldwood"
+            "uaxis" "[0.00 0.00 -1.00 1440.00] 0.30"
+            "vaxis" "[0.00 -1.00 0.00 106.6667] 0.30"
+            "rotation" "90"
+            "lightmapscale" "0"
+            "smoothing_groups" ""
+            vertex
+            {
+                "count" "4"
+                "vertex0" "480.00 -32.00 24.00"
+                "vertex1" "480.00 0.00 24.00"
+                "vertex2" "480.00 0.00 0.00"
+                "vertex3" "480.00 -32.00 0.00"
+            }
+        }
+        side
+        {
+            "id" "2683"
+            "plane" "(480.00 0.00 24.00) (368.00 0.00 24.00) (368.00 0.00 0.00)"
+            "material" "oldwood"
+            "uaxis" "[0.00 0.00 -1.00 480.00] 0.30"
+            "vaxis" "[1.00 0.00 0.00 -160.00] 0.30"
+            "rotation" "90"
+            "lightmapscale" "0"
+            "smoothing_groups" ""
+            vertex
+            {
+                "count" "4"
+                "vertex0" "480.00 0.00 24.00"
+                "vertex1" "368.00 0.00 24.00"
+                "vertex2" "368.00 0.00 0.00"
+                "vertex3" "480.00 0.00 0.00"
+            }
+        }
+        editor
+        {
+            "color" "0 175 209"
             "parentid" "1"
             "groupid" "0"
             "visgroupshown" "1"
@@ -11253,6 +11757,258 @@ world
     }
     solid
     {
+        "id" "459"
+        side
+        {
+            "id" "2684"
+            "plane" "(104.00 48.00 0.00) (216.00 48.00 0.00) (216.00 80.00 0.00)"
+            "material" "oldwood"
+            "uaxis" "[0.00 -1.00 0.00 304.00] 1.00"
+            "vaxis" "[1.00 0.00 0.00 -184.00] 1.00"
+            "rotation" "90"
+            "lightmapscale" "0"
+            "smoothing_groups" ""
+            vertex
+            {
+                "count" "4"
+                "vertex0" "104.00 48.00 0.00"
+                "vertex1" "216.00 48.00 0.00"
+                "vertex2" "216.00 80.00 0.00"
+                "vertex3" "104.00 80.00 0.00"
+            }
+        }
+        side
+        {
+            "id" "2685"
+            "plane" "(104.00 48.00 24.00) (216.00 48.00 24.00) (216.00 48.00 0.00)"
+            "material" "oldwood"
+            "uaxis" "[0.00 0.00 -1.00 -480.00] 0.30"
+            "vaxis" "[-1.00 0.00 0.00 -1040.00] 0.30"
+            "rotation" "90"
+            "lightmapscale" "0"
+            "smoothing_groups" ""
+            vertex
+            {
+                "count" "4"
+                "vertex0" "104.00 48.00 24.00"
+                "vertex1" "216.00 48.00 24.00"
+                "vertex2" "216.00 48.00 0.00"
+                "vertex3" "104.00 48.00 0.00"
+            }
+        }
+        side
+        {
+            "id" "2686"
+            "plane" "(104.00 80.00 24.00) (216.00 80.00 24.00) (216.00 48.00 24.00)"
+            "material" "oldwood"
+            "uaxis" "[0.00 -1.00 0.00 53.33334] 0.30"
+            "vaxis" "[-1.00 0.00 0.00 -2320.00] 0.30"
+            "rotation" "90"
+            "lightmapscale" "0"
+            "smoothing_groups" ""
+            vertex
+            {
+                "count" "4"
+                "vertex0" "104.00 80.00 24.00"
+                "vertex1" "216.00 80.00 24.00"
+                "vertex2" "216.00 48.00 24.00"
+                "vertex3" "104.00 48.00 24.00"
+            }
+        }
+        side
+        {
+            "id" "2687"
+            "plane" "(104.00 80.00 24.00) (104.00 48.00 24.00) (104.00 48.00 0.00)"
+            "material" "oldwood"
+            "uaxis" "[0.00 0.00 -1.00 -1440.00] 0.30"
+            "vaxis" "[0.00 1.00 0.00 -693.3333] 0.30"
+            "rotation" "90"
+            "lightmapscale" "0"
+            "smoothing_groups" ""
+            vertex
+            {
+                "count" "4"
+                "vertex0" "104.00 80.00 24.00"
+                "vertex1" "104.00 48.00 24.00"
+                "vertex2" "104.00 48.00 0.00"
+                "vertex3" "104.00 80.00 0.00"
+            }
+        }
+        side
+        {
+            "id" "2688"
+            "plane" "(216.00 48.00 24.00) (216.00 80.00 24.00) (216.00 80.00 0.00)"
+            "material" "oldwood"
+            "uaxis" "[0.00 0.00 -1.00 1440.00] 0.30"
+            "vaxis" "[0.00 -1.00 0.00 373.3333] 0.30"
+            "rotation" "90"
+            "lightmapscale" "0"
+            "smoothing_groups" ""
+            vertex
+            {
+                "count" "4"
+                "vertex0" "216.00 48.00 24.00"
+                "vertex1" "216.00 80.00 24.00"
+                "vertex2" "216.00 80.00 0.00"
+                "vertex3" "216.00 48.00 0.00"
+            }
+        }
+        side
+        {
+            "id" "2689"
+            "plane" "(216.00 80.00 24.00) (104.00 80.00 24.00) (104.00 80.00 0.00)"
+            "material" "oldwood"
+            "uaxis" "[0.00 0.00 -1.00 480.00] 0.30"
+            "vaxis" "[1.00 0.00 0.00 719.9999] 0.30"
+            "rotation" "90"
+            "lightmapscale" "0"
+            "smoothing_groups" ""
+            vertex
+            {
+                "count" "4"
+                "vertex0" "216.00 80.00 24.00"
+                "vertex1" "104.00 80.00 24.00"
+                "vertex2" "104.00 80.00 0.00"
+                "vertex3" "216.00 80.00 0.00"
+            }
+        }
+        editor
+        {
+            "color" "0 175 209"
+            "parentid" "1"
+            "groupid" "0"
+            "visgroupshown" "1"
+            "visgroupautoshown" "1"
+        }
+    }
+    solid
+    {
+        "id" "460"
+        side
+        {
+            "id" "2690"
+            "plane" "(368.00 48.00 0.00) (480.00 48.00 0.00) (480.00 80.00 0.00)"
+            "material" "oldwood"
+            "uaxis" "[0.00 -1.00 0.00 304.00] 1.00"
+            "vaxis" "[1.00 0.00 0.00 -448.00] 1.00"
+            "rotation" "90"
+            "lightmapscale" "0"
+            "smoothing_groups" ""
+            vertex
+            {
+                "count" "4"
+                "vertex0" "368.00 48.00 0.00"
+                "vertex1" "480.00 48.00 0.00"
+                "vertex2" "480.00 80.00 0.00"
+                "vertex3" "368.00 80.00 0.00"
+            }
+        }
+        side
+        {
+            "id" "2691"
+            "plane" "(368.00 48.00 24.00) (480.00 48.00 24.00) (480.00 48.00 0.00)"
+            "material" "oldwood"
+            "uaxis" "[0.00 0.00 -1.00 -480.00] 0.30"
+            "vaxis" "[-1.00 0.00 0.00 -160.00] 0.30"
+            "rotation" "90"
+            "lightmapscale" "0"
+            "smoothing_groups" ""
+            vertex
+            {
+                "count" "4"
+                "vertex0" "368.00 48.00 24.00"
+                "vertex1" "480.00 48.00 24.00"
+                "vertex2" "480.00 48.00 0.00"
+                "vertex3" "368.00 48.00 0.00"
+            }
+        }
+        side
+        {
+            "id" "2692"
+            "plane" "(368.00 80.00 24.00) (480.00 80.00 24.00) (480.00 48.00 24.00)"
+            "material" "oldwood"
+            "uaxis" "[0.00 -1.00 0.00 53.33334] 0.30"
+            "vaxis" "[-1.00 0.00 0.00 -1440.00] 0.30"
+            "rotation" "90"
+            "lightmapscale" "0"
+            "smoothing_groups" ""
+            vertex
+            {
+                "count" "4"
+                "vertex0" "368.00 80.00 24.00"
+                "vertex1" "480.00 80.00 24.00"
+                "vertex2" "480.00 48.00 24.00"
+                "vertex3" "368.00 48.00 24.00"
+            }
+        }
+        side
+        {
+            "id" "2693"
+            "plane" "(368.00 80.00 24.00) (368.00 48.00 24.00) (368.00 48.00 0.00)"
+            "material" "oldwood"
+            "uaxis" "[0.00 0.00 -1.00 -1440.00] 0.30"
+            "vaxis" "[0.00 1.00 0.00 -693.3333] 0.30"
+            "rotation" "90"
+            "lightmapscale" "0"
+            "smoothing_groups" ""
+            vertex
+            {
+                "count" "4"
+                "vertex0" "368.00 80.00 24.00"
+                "vertex1" "368.00 48.00 24.00"
+                "vertex2" "368.00 48.00 0.00"
+                "vertex3" "368.00 80.00 0.00"
+            }
+        }
+        side
+        {
+            "id" "2694"
+            "plane" "(480.00 48.00 24.00) (480.00 80.00 24.00) (480.00 80.00 0.00)"
+            "material" "oldwood"
+            "uaxis" "[0.00 0.00 -1.00 1440.00] 0.30"
+            "vaxis" "[0.00 -1.00 0.00 373.3333] 0.30"
+            "rotation" "90"
+            "lightmapscale" "0"
+            "smoothing_groups" ""
+            vertex
+            {
+                "count" "4"
+                "vertex0" "480.00 48.00 24.00"
+                "vertex1" "480.00 80.00 24.00"
+                "vertex2" "480.00 80.00 0.00"
+                "vertex3" "480.00 48.00 0.00"
+            }
+        }
+        side
+        {
+            "id" "2695"
+            "plane" "(480.00 80.00 24.00) (368.00 80.00 24.00) (368.00 80.00 0.00)"
+            "material" "oldwood"
+            "uaxis" "[0.00 0.00 -1.00 480.00] 0.30"
+            "vaxis" "[1.00 0.00 0.00 -160.00] 0.30"
+            "rotation" "90"
+            "lightmapscale" "0"
+            "smoothing_groups" ""
+            vertex
+            {
+                "count" "4"
+                "vertex0" "480.00 80.00 24.00"
+                "vertex1" "368.00 80.00 24.00"
+                "vertex2" "368.00 80.00 0.00"
+                "vertex3" "480.00 80.00 0.00"
+            }
+        }
+        editor
+        {
+            "color" "0 175 209"
+            "parentid" "1"
+            "groupid" "0"
+            "visgroupshown" "1"
+            "visgroupautoshown" "1"
+        }
+    }
+    solid
+    {
         "id" "183"
         side
         {
@@ -11358,6 +12114,258 @@ world
     }
     solid
     {
+        "id" "461"
+        side
+        {
+            "id" "2698"
+            "plane" "(-16.00 504.00 128.00) (-16.00 456.00 128.00) (-16.00 456.00 48.00)"
+            "material" "cxbrickk"
+            "uaxis" "[0.00 -1.00 0.00 0.00] 1.00"
+            "vaxis" "[0.00 0.00 -1.00 0.00] 1.00"
+            "rotation" "0"
+            "lightmapscale" "0"
+            "smoothing_groups" ""
+            vertex
+            {
+                "count" "4"
+                "vertex0" "-16.00 504.00 128.00"
+                "vertex1" "-16.00 456.00 128.00"
+                "vertex2" "-16.00 456.00 48.00"
+                "vertex3" "-16.00 504.00 48.00"
+            }
+        }
+        side
+        {
+            "id" "2700"
+            "plane" "(-16.00 504.00 128.00) (80.00 504.00 128.00) (80.00 456.00 128.00)"
+            "material" "bigcrate0"
+            "uaxis" "[1.00 0.00 0.00 42.66667] 0.375"
+            "vaxis" "[0.00 -1.00 0.00 1344.00] 0.375"
+            "rotation" "0"
+            "lightmapscale" "0"
+            "smoothing_groups" ""
+            vertex
+            {
+                "count" "4"
+                "vertex0" "-16.00 504.00 128.00"
+                "vertex1" "80.00 504.00 128.00"
+                "vertex2" "80.00 456.00 128.00"
+                "vertex3" "-16.00 456.00 128.00"
+            }
+        }
+        side
+        {
+            "id" "2697"
+            "plane" "(80.00 504.00 128.00) (-16.00 504.00 128.00) (-16.00 504.00 48.00)"
+            "material" "null"
+            "uaxis" "[-1.00 0.00 0.00 0.00] 1.00"
+            "vaxis" "[0.00 0.00 -1.00 0.00] 1.00"
+            "rotation" "0"
+            "lightmapscale" "0"
+            "smoothing_groups" ""
+            vertex
+            {
+                "count" "4"
+                "vertex0" "80.00 504.00 128.00"
+                "vertex1" "-16.00 504.00 128.00"
+                "vertex2" "-16.00 504.00 48.00"
+                "vertex3" "80.00 504.00 48.00"
+            }
+        }
+        side
+        {
+            "id" "2701"
+            "plane" "(-16.00 456.00 48.00) (80.00 456.00 48.00) (80.00 504.00 48.00)"
+            "material" "null"
+            "uaxis" "[-1.00 0.00 0.00 0.00] 1.00"
+            "vaxis" "[0.00 -1.00 0.00 0.00] 1.00"
+            "rotation" "0"
+            "lightmapscale" "0"
+            "smoothing_groups" ""
+            vertex
+            {
+                "count" "4"
+                "vertex0" "-16.00 456.00 48.00"
+                "vertex1" "80.00 456.00 48.00"
+                "vertex2" "80.00 504.00 48.00"
+                "vertex3" "-16.00 504.00 48.00"
+            }
+        }
+        side
+        {
+            "id" "2699"
+            "plane" "(80.00 456.00 128.00) (80.00 504.00 128.00) (80.00 504.00 48.00)"
+            "material" "bigcrate0"
+            "uaxis" "[0.00 1.00 0.00 -1216.00] 0.375"
+            "vaxis" "[0.00 0.00 -1.00 204.80] 0.625"
+            "rotation" "0"
+            "lightmapscale" "0"
+            "smoothing_groups" ""
+            vertex
+            {
+                "count" "4"
+                "vertex0" "80.00 456.00 128.00"
+                "vertex1" "80.00 504.00 128.00"
+                "vertex2" "80.00 504.00 48.00"
+                "vertex3" "80.00 456.00 48.00"
+            }
+        }
+        side
+        {
+            "id" "2696"
+            "plane" "(-16.00 456.00 128.00) (80.00 456.00 128.00) (80.00 456.00 48.00)"
+            "material" "bigcrate0"
+            "uaxis" "[1.00 0.00 0.00 42.66667] 0.375"
+            "vaxis" "[0.00 0.00 -1.00 204.80] 0.625"
+            "rotation" "0"
+            "lightmapscale" "0"
+            "smoothing_groups" ""
+            vertex
+            {
+                "count" "4"
+                "vertex0" "-16.00 456.00 128.00"
+                "vertex1" "80.00 456.00 128.00"
+                "vertex2" "80.00 456.00 48.00"
+                "vertex3" "-16.00 456.00 48.00"
+            }
+        }
+        editor
+        {
+            "color" "0 155 151"
+            "parentid" "1"
+            "groupid" "0"
+            "visgroupshown" "1"
+            "visgroupautoshown" "1"
+        }
+    }
+    solid
+    {
+        "id" "462"
+        side
+        {
+            "id" "2702"
+            "plane" "(-16.00 456.00 88.00) (-16.00 416.00 88.00) (-16.00 416.00 48.00)"
+            "material" "cxbrickk"
+            "uaxis" "[0.00 -1.00 0.00 -40.00] 1.00"
+            "vaxis" "[0.00 0.00 -1.00 0.00] 1.00"
+            "rotation" "0"
+            "lightmapscale" "0"
+            "smoothing_groups" ""
+            vertex
+            {
+                "count" "4"
+                "vertex0" "-16.00 456.00 88.00"
+                "vertex1" "-16.00 416.00 88.00"
+                "vertex2" "-16.00 416.00 48.00"
+                "vertex3" "-16.00 456.00 48.00"
+            }
+        }
+        side
+        {
+            "id" "2705"
+            "plane" "(32.00 456.00 88.00) (-16.00 456.00 88.00) (-16.00 456.00 48.00)"
+            "material" "null"
+            "uaxis" "[-1.00 0.00 0.00 0.00] 1.00"
+            "vaxis" "[0.00 0.00 -1.00 0.00] 1.00"
+            "rotation" "0"
+            "lightmapscale" "0"
+            "smoothing_groups" ""
+            vertex
+            {
+                "count" "4"
+                "vertex0" "32.00 456.00 88.00"
+                "vertex1" "-16.00 456.00 88.00"
+                "vertex2" "-16.00 456.00 48.00"
+                "vertex3" "32.00 456.00 48.00"
+            }
+        }
+        side
+        {
+            "id" "2706"
+            "plane" "(-16.00 416.00 48.00) (32.00 416.00 48.00) (32.00 456.00 48.00)"
+            "material" "null"
+            "uaxis" "[-1.00 0.00 0.00 0.00] 1.00"
+            "vaxis" "[0.00 -1.00 0.00 -40.00] 1.00"
+            "rotation" "0"
+            "lightmapscale" "0"
+            "smoothing_groups" ""
+            vertex
+            {
+                "count" "4"
+                "vertex0" "-16.00 416.00 48.00"
+                "vertex1" "32.00 416.00 48.00"
+                "vertex2" "32.00 456.00 48.00"
+                "vertex3" "-16.00 456.00 48.00"
+            }
+        }
+        side
+        {
+            "id" "2707"
+            "plane" "(-16.00 416.00 88.00) (32.00 416.00 88.00) (32.00 416.00 48.00)"
+            "material" "null"
+            "uaxis" "[1.00 0.00 0.00 0.00] 1.00"
+            "vaxis" "[0.00 0.00 -1.00 0.00] 1.00"
+            "rotation" "0"
+            "lightmapscale" "0"
+            "smoothing_groups" ""
+            vertex
+            {
+                "count" "4"
+                "vertex0" "-16.00 416.00 88.00"
+                "vertex1" "32.00 416.00 88.00"
+                "vertex2" "32.00 416.00 48.00"
+                "vertex3" "-16.00 416.00 48.00"
+            }
+        }
+        side
+        {
+            "id" "2703"
+            "plane" "(32.00 416.00 88.00) (32.00 456.00 88.00) (32.00 456.00 48.00)"
+            "material" "bigcrate0"
+            "uaxis" "[0.00 1.00 0.00 -1331.20] 0.3125"
+            "vaxis" "[0.00 0.00 -1.00 281.60] 0.3125"
+            "rotation" "0"
+            "lightmapscale" "0"
+            "smoothing_groups" ""
+            vertex
+            {
+                "count" "4"
+                "vertex0" "32.00 416.00 88.00"
+                "vertex1" "32.00 456.00 88.00"
+                "vertex2" "32.00 456.00 48.00"
+                "vertex3" "32.00 416.00 48.00"
+            }
+        }
+        side
+        {
+            "id" "2704"
+            "plane" "(-16.00 456.00 88.00) (32.00 456.00 88.00) (32.00 416.00 88.00)"
+            "material" "bigcrate0"
+            "uaxis" "[1.00 0.00 0.00 42.66667] 0.375"
+            "vaxis" "[0.00 -1.00 0.00 1459.20] 0.3125"
+            "rotation" "0"
+            "lightmapscale" "0"
+            "smoothing_groups" ""
+            vertex
+            {
+                "count" "4"
+                "vertex0" "-16.00 456.00 88.00"
+                "vertex1" "32.00 456.00 88.00"
+                "vertex2" "32.00 416.00 88.00"
+                "vertex3" "-16.00 416.00 88.00"
+            }
+        }
+        editor
+        {
+            "color" "0 155 151"
+            "parentid" "1"
+            "groupid" "0"
+            "visgroupshown" "1"
+            "visgroupautoshown" "1"
+        }
+    }
+    solid
+    {
         "id" "185"
         side
         {
@@ -11455,6 +12463,405 @@ world
         editor
         {
             "color" "0 144 154"
+            "parentid" "1"
+            "groupid" "0"
+            "visgroupshown" "1"
+            "visgroupautoshown" "1"
+        }
+    }
+    solid
+    {
+        "id" "476"
+        side
+        {
+            "id" "2786"
+            "plane" "(592.00 -256.00 203.58) (592.00 -264.00 203.58) (280.00 -264.00 376.00)"
+            "material" "c_tnnl_ccrete"
+            "uaxis" "[0.875243 0.00 -0.483684 0.00] 1.00"
+            "vaxis" "[0.00 -1.00 0.00 104.00] 1.00"
+            "rotation" "0"
+            "lightmapscale" "0"
+            "smoothing_groups" ""
+            vertex
+            {
+                "count" "4"
+                "vertex0" "592.00 -256.00 203.58"
+                "vertex1" "592.00 -264.00 203.58"
+                "vertex2" "280.00 -264.00 376.00"
+                "vertex3" "280.00 -256.00 376.00"
+            }
+        }
+        side
+        {
+            "id" "2787"
+            "plane" "(280.00 -256.00 376.00) (280.00 -264.00 376.00) (-16.00 -264.00 209.03)"
+            "material" "c_tnnl_ccrete"
+            "uaxis" "[0.870983 0.00 0.491314 0.00] 1.00"
+            "vaxis" "[0.00 -1.00 0.00 104.00] 1.00"
+            "rotation" "0"
+            "lightmapscale" "0"
+            "smoothing_groups" ""
+            vertex
+            {
+                "count" "4"
+                "vertex0" "280.00 -256.00 376.00"
+                "vertex1" "280.00 -264.00 376.00"
+                "vertex2" "-16.00 -264.00 209.03"
+                "vertex3" "-16.00 -256.00 209.03"
+            }
+        }
+        side
+        {
+            "id" "2788"
+            "plane" "(-16.00 -256.00 209.03) (-16.00 -264.00 209.03) (-16.00 -264.00 184.00)"
+            "material" "c_tnnl_ccrete"
+            "uaxis" "[0.00 -1.00 0.00 0.00] 1.00"
+            "vaxis" "[0.00 0.00 -1.00 104.00] 1.00"
+            "rotation" "0"
+            "lightmapscale" "0"
+            "smoothing_groups" ""
+            vertex
+            {
+                "count" "4"
+                "vertex0" "-16.00 -256.00 209.03"
+                "vertex1" "-16.00 -264.00 209.03"
+                "vertex2" "-16.00 -264.00 184.00"
+                "vertex3" "-16.00 -256.00 184.00"
+            }
+        }
+        side
+        {
+            "id" "2789"
+            "plane" "(592.00 -264.00 203.58) (592.00 -256.00 203.58) (592.00 -256.00 184.00)"
+            "material" "c_tnnl_ccrete"
+            "uaxis" "[0.00 1.00 0.00 0.00] 1.00"
+            "vaxis" "[0.00 0.00 -1.00 104.00] 1.00"
+            "rotation" "0"
+            "lightmapscale" "0"
+            "smoothing_groups" ""
+            vertex
+            {
+                "count" "4"
+                "vertex0" "592.00 -264.00 203.58"
+                "vertex1" "592.00 -256.00 203.58"
+                "vertex2" "592.00 -256.00 184.00"
+                "vertex3" "592.00 -264.00 184.00"
+            }
+        }
+        side
+        {
+            "id" "2790"
+            "plane" "(-16.00 -256.00 184.00) (-16.00 -264.00 184.00) (592.00 -264.00 184.00)"
+            "material" "c_tnnl_ccrete"
+            "uaxis" "[-1.00 0.00 0.00 -0.000008] 1.00"
+            "vaxis" "[0.00 -1.00 0.00 0.00] 1.00"
+            "rotation" "0"
+            "lightmapscale" "0"
+            "smoothing_groups" ""
+            vertex
+            {
+                "count" "4"
+                "vertex0" "-16.00 -256.00 184.00"
+                "vertex1" "-16.00 -264.00 184.00"
+                "vertex2" "592.00 -264.00 184.00"
+                "vertex3" "592.00 -256.00 184.00"
+            }
+        }
+        side
+        {
+            "id" "2791"
+            "plane" "(-16.00 -264.00 209.03) (280.00 -264.00 376.00) (592.00 -264.00 203.58)"
+            "material" "cxbrickk"
+            "uaxis" "[1.00 0.00 0.00 656.00] 1.00"
+            "vaxis" "[0.00 0.00 -1.00 248.00] 1.00"
+            "rotation" "0"
+            "lightmapscale" "0"
+            "smoothing_groups" ""
+            vertex
+            {
+                "count" "5"
+                "vertex0" "-16.00 -264.00 209.03"
+                "vertex1" "280.00 -264.00 376.00"
+                "vertex2" "592.00 -264.00 203.58"
+                "vertex3" "592.00 -264.00 184.00"
+                "vertex4" "-16.00 -264.00 184.00"
+            }
+        }
+        side
+        {
+            "id" "2792"
+            "plane" "(592.00 -256.00 203.58) (280.00 -256.00 376.00) (-16.00 -256.00 209.03)"
+            "material" "-0wlstucco"
+            "uaxis" "[-1.00 0.00 0.00 656.00] 1.00"
+            "vaxis" "[0.00 0.00 -1.00 248.00] 1.00"
+            "rotation" "0"
+            "lightmapscale" "0"
+            "smoothing_groups" ""
+            vertex
+            {
+                "count" "5"
+                "vertex0" "592.00 -256.00 203.58"
+                "vertex1" "280.00 -256.00 376.00"
+                "vertex2" "-16.00 -256.00 209.03"
+                "vertex3" "-16.00 -256.00 184.00"
+                "vertex4" "592.00 -256.00 184.00"
+            }
+        }
+        editor
+        {
+            "color" "0 240 185"
+            "parentid" "1"
+            "groupid" "0"
+            "visgroupshown" "1"
+            "visgroupautoshown" "1"
+        }
+    }
+    solid
+    {
+        "id" "479"
+        side
+        {
+            "id" "2801"
+            "plane" "(-176.00 735.9999 -16.00) (-128.00 735.9999 -16.00) (-128.00 784.00 -16.00)"
+            "material" "null"
+            "uaxis" "[-1.00 0.00 0.00 -42.66667] 3.00"
+            "vaxis" "[0.00 -1.00 0.00 261.333] 3.000004"
+            "rotation" "0"
+            "lightmapscale" "0"
+            "smoothing_groups" ""
+            vertex
+            {
+                "count" "4"
+                "vertex0" "-176.00 735.9999 -16.00"
+                "vertex1" "-128.00 735.9999 -16.00"
+                "vertex2" "-128.00 784.00 -16.00"
+                "vertex3" "-176.00 784.00 -16.00"
+            }
+        }
+        side
+        {
+            "id" "2802"
+            "plane" "(-176.00 735.9999 32.00) (-128.00 735.9999 32.00) (-128.00 735.9999 -16.00)"
+            "material" "bigcrate0"
+            "uaxis" "[1.00 0.00 0.00 469.3333] 0.375"
+            "vaxis" "[0.00 0.00 -1.00 85.33334] 0.375"
+            "rotation" "0"
+            "lightmapscale" "0"
+            "smoothing_groups" ""
+            vertex
+            {
+                "count" "4"
+                "vertex0" "-176.00 735.9999 32.00"
+                "vertex1" "-128.00 735.9999 32.00"
+                "vertex2" "-128.00 735.9999 -16.00"
+                "vertex3" "-176.00 735.9999 -16.00"
+            }
+        }
+        side
+        {
+            "id" "2803"
+            "plane" "(-128.00 735.9999 32.00) (-128.00 784.00 32.00) (-128.00 784.00 -16.00)"
+            "material" "bigcrate0"
+            "uaxis" "[0.00 1.00 0.00 -1962.664] 0.375001"
+            "vaxis" "[0.00 0.00 -1.00 85.33334] 0.375"
+            "rotation" "0"
+            "lightmapscale" "0"
+            "smoothing_groups" ""
+            vertex
+            {
+                "count" "4"
+                "vertex0" "-128.00 735.9999 32.00"
+                "vertex1" "-128.00 784.00 32.00"
+                "vertex2" "-128.00 784.00 -16.00"
+                "vertex3" "-128.00 735.9999 -16.00"
+            }
+        }
+        side
+        {
+            "id" "2804"
+            "plane" "(-176.00 784.00 32.00) (-128.00 784.00 32.00) (-128.00 735.9999 32.00)"
+            "material" "bigcrate0"
+            "uaxis" "[1.00 0.00 0.00 469.3333] 0.375"
+            "vaxis" "[0.00 -1.00 0.00 2090.664] 0.375001"
+            "rotation" "0"
+            "lightmapscale" "0"
+            "smoothing_groups" ""
+            vertex
+            {
+                "count" "4"
+                "vertex0" "-176.00 784.00 32.00"
+                "vertex1" "-128.00 784.00 32.00"
+                "vertex2" "-128.00 735.9999 32.00"
+                "vertex3" "-176.00 735.9999 32.00"
+            }
+        }
+        side
+        {
+            "id" "2800"
+            "plane" "(-128.00 784.00 32.00) (-176.00 784.00 32.00) (-176.00 784.00 -16.00)"
+            "material" "bigcrate0"
+            "uaxis" "[-1.00 0.00 0.00 -341.3333] 0.375"
+            "vaxis" "[0.00 0.00 -1.00 85.33334] 0.375"
+            "rotation" "0"
+            "lightmapscale" "0"
+            "smoothing_groups" ""
+            vertex
+            {
+                "count" "4"
+                "vertex0" "-128.00 784.00 32.00"
+                "vertex1" "-176.00 784.00 32.00"
+                "vertex2" "-176.00 784.00 -16.00"
+                "vertex3" "-128.00 784.00 -16.00"
+            }
+        }
+        side
+        {
+            "id" "2799"
+            "plane" "(-176.00 784.00 32.00) (-176.00 735.9999 32.00) (-176.00 735.9999 -16.00)"
+            "material" "bigcrate0"
+            "uaxis" "[0.00 -1.00 0.00 2090.664] 0.375001"
+            "vaxis" "[0.00 0.00 -1.00 85.33334] 0.375"
+            "rotation" "0"
+            "lightmapscale" "0"
+            "smoothing_groups" ""
+            vertex
+            {
+                "count" "4"
+                "vertex0" "-176.00 784.00 32.00"
+                "vertex1" "-176.00 735.9999 32.00"
+                "vertex2" "-176.00 735.9999 -16.00"
+                "vertex3" "-176.00 784.00 -16.00"
+            }
+        }
+        editor
+        {
+            "color" "0 155 151"
+            "parentid" "1"
+            "groupid" "0"
+            "visgroupshown" "1"
+            "visgroupautoshown" "1"
+        }
+    }
+    solid
+    {
+        "id" "480"
+        side
+        {
+            "id" "2805"
+            "plane" "(-176.00 784.00 -16.00) (-128.00 784.00 -16.00) (-128.00 832.0001 -16.00)"
+            "material" "null"
+            "uaxis" "[-1.00 0.00 0.00 -42.66667] 3.00"
+            "vaxis" "[0.00 -1.00 0.00 277.333] 3.000004"
+            "rotation" "0"
+            "lightmapscale" "0"
+            "smoothing_groups" ""
+            vertex
+            {
+                "count" "4"
+                "vertex0" "-176.00 784.00 -16.00"
+                "vertex1" "-128.00 784.00 -16.00"
+                "vertex2" "-128.00 832.0001 -16.00"
+                "vertex3" "-176.00 832.0001 -16.00"
+            }
+        }
+        side
+        {
+            "id" "2806"
+            "plane" "(-176.00 784.00 48.00) (-128.00 784.00 48.00) (-128.00 784.00 -16.00)"
+            "material" "bigcrate0"
+            "uaxis" "[1.00 0.00 0.00 469.3333] 0.375"
+            "vaxis" "[0.00 0.00 -1.00 96.00] 0.50"
+            "rotation" "0"
+            "lightmapscale" "0"
+            "smoothing_groups" ""
+            vertex
+            {
+                "count" "4"
+                "vertex0" "-176.00 784.00 48.00"
+                "vertex1" "-128.00 784.00 48.00"
+                "vertex2" "-128.00 784.00 -16.00"
+                "vertex3" "-176.00 784.00 -16.00"
+            }
+        }
+        side
+        {
+            "id" "2807"
+            "plane" "(-128.00 784.00 48.00) (-128.00 832.0001 48.00) (-128.00 832.0001 -16.00)"
+            "material" "bigcrate0"
+            "uaxis" "[0.00 1.00 0.00 -2090.664] 0.375001"
+            "vaxis" "[0.00 0.00 -1.00 96.00] 0.50"
+            "rotation" "0"
+            "lightmapscale" "0"
+            "smoothing_groups" ""
+            vertex
+            {
+                "count" "4"
+                "vertex0" "-128.00 784.00 48.00"
+                "vertex1" "-128.00 832.0001 48.00"
+                "vertex2" "-128.00 832.0001 -16.00"
+                "vertex3" "-128.00 784.00 -16.00"
+            }
+        }
+        side
+        {
+            "id" "2808"
+            "plane" "(-176.00 832.0001 48.00) (-128.00 832.0001 48.00) (-128.00 784.00 48.00)"
+            "material" "bigcrate0"
+            "uaxis" "[1.00 0.00 0.00 469.3333] 0.375"
+            "vaxis" "[0.00 -1.00 0.00 2218.664] 0.375001"
+            "rotation" "0"
+            "lightmapscale" "0"
+            "smoothing_groups" ""
+            vertex
+            {
+                "count" "4"
+                "vertex0" "-176.00 832.0001 48.00"
+                "vertex1" "-128.00 832.0001 48.00"
+                "vertex2" "-128.00 784.00 48.00"
+                "vertex3" "-176.00 784.00 48.00"
+            }
+        }
+        side
+        {
+            "id" "2809"
+            "plane" "(-128.00 832.0001 48.00) (-176.00 832.0001 48.00) (-176.00 832.0001 -16.00)"
+            "material" "bigcrate0"
+            "uaxis" "[-1.00 0.00 0.00 -341.3333] 0.375"
+            "vaxis" "[0.00 0.00 -1.00 96.00] 0.50"
+            "rotation" "0"
+            "lightmapscale" "0"
+            "smoothing_groups" ""
+            vertex
+            {
+                "count" "4"
+                "vertex0" "-128.00 832.0001 48.00"
+                "vertex1" "-176.00 832.0001 48.00"
+                "vertex2" "-176.00 832.0001 -16.00"
+                "vertex3" "-128.00 832.0001 -16.00"
+            }
+        }
+        side
+        {
+            "id" "2810"
+            "plane" "(-176.00 832.0001 48.00) (-176.00 784.00 48.00) (-176.00 784.00 -16.00)"
+            "material" "bigcrate0"
+            "uaxis" "[0.00 -1.00 0.00 2218.664] 0.375001"
+            "vaxis" "[0.00 0.00 -1.00 96.00] 0.50"
+            "rotation" "0"
+            "lightmapscale" "0"
+            "smoothing_groups" ""
+            vertex
+            {
+                "count" "4"
+                "vertex0" "-176.00 832.0001 48.00"
+                "vertex1" "-176.00 784.00 48.00"
+                "vertex2" "-176.00 784.00 -16.00"
+                "vertex3" "-176.00 832.0001 -16.00"
+            }
+        }
+        editor
+        {
+            "color" "0 155 151"
             "parentid" "1"
             "groupid" "0"
             "visgroupshown" "1"
@@ -15452,27 +16859,6 @@ entity
         "visgroupautoshown" "1"
     }
 }
-entity
-{
-    "id" "254"
-    "classname" "cycler"
-    "spawnflags" "0"
-    "origin" "424 -312 48"
-    "renderfx" ""
-    "rendermode" ""
-    "renderamt" "255"
-    "rendercolor" "0 0 0"
-    "targetname" ""
-    "model" "models/trap.mdl"
-    editor
-    {
-        "color" "0 255 0"
-        "parentid" "1"
-        "groupid" "0"
-        "visgroupshown" "1"
-        "visgroupautoshown" "1"
-    }
-}
 cameras
 {
     "activecamera" "0"
@@ -15493,7 +16879,7 @@ viewsettings
     "bSnapToGrid" "1"
     "bShowGrid" "1"
     "bShow3DGrid" "0"
-    "nGridSpacing" "4"
+    "nGridSpacing" "8"
 }
 sledge_native
 {
@@ -17642,7 +19028,7 @@ sledge_native
                 Plane
                 {
                     "Normal" "0 -1 0"
-                    "DistanceFromOrigin" "504.000031"
+                    "DistanceFromOrigin" "504"
                 }
                 Texture
                 {
@@ -17790,7 +19176,7 @@ sledge_native
                 Plane
                 {
                     "Normal" "0 1 0"
-                    "DistanceFromOrigin" "-256.000031"
+                    "DistanceFromOrigin" "-256"
                 }
                 Texture
                 {
@@ -28261,7 +29647,7 @@ sledge_native
         Solid
         {
             "ID" "412"
-            "IsSelected" "False"
+            "IsSelected" "True"
             "ParentID" "1"
             ObjectColor
             {
@@ -32931,6 +34317,10 @@ sledge_native
                     "Position" "480 112 252"
                 }
             }
+            VisgroupHidden
+            {
+                "IsHidden" "False"
+            }
         }
         Solid
         {
@@ -33391,7 +34781,7 @@ sledge_native
                 {
                     "Name" "c_tnnl_ccrete"
                     "Rotation" "0"
-                    "UAxis" "0.707106 -0.7071075 0"
+                    "UAxis" "0.7071061 -0.7071075 0"
                     "VAxis" "0 0 -1"
                     "XScale" "1"
                     "XShift" "22.6274319"
@@ -33499,7 +34889,7 @@ sledge_native
                 {
                     "Name" "c_tnnl_ccrete"
                     "Rotation" "0"
-                    "UAxis" "0.707106 0.7071075 0"
+                    "UAxis" "0.7071061 0.7071075 0"
                     "VAxis" "0 0 -1"
                     "XScale" "1"
                     "XShift" "-22.62751"
@@ -33694,6 +35084,10 @@ sledge_native
                 {
                     "Position" "480 -144 252"
                 }
+            }
+            VisgroupHidden
+            {
+                "IsHidden" "False"
             }
         }
         Solid
@@ -33969,7 +35363,7 @@ sledge_native
                 {
                     "Name" "c_tnnl_ccrete"
                     "Rotation" "0"
-                    "UAxis" "0.7071184 -0.7070951 0"
+                    "UAxis" "0.7071185 -0.7070951 0"
                     "VAxis" "0 0 -1"
                     "XScale" "1"
                     "XShift" "463.864258"
@@ -34272,6 +35666,10 @@ sledge_native
                 {
                     "Position" "128 112 252"
                 }
+            }
+            VisgroupHidden
+            {
+                "IsHidden" "False"
             }
         }
         Solid
@@ -35037,6 +36435,10 @@ sledge_native
                     "Position" "128 -144 252"
                 }
             }
+            VisgroupHidden
+            {
+                "IsHidden" "False"
+            }
         }
         Solid
         {
@@ -35125,7 +36527,7 @@ sledge_native
                 Plane
                 {
                     "Normal" "-1 0 0"
-                    "DistanceFromOrigin" "-76.0000153"
+                    "DistanceFromOrigin" "-76.00002"
                 }
                 Texture
                 {
@@ -35262,6 +36664,10 @@ sledge_native
                 {
                     "Position" "76.00002 116 252"
                 }
+            }
+            VisgroupHidden
+            {
+                "IsHidden" "False"
             }
         }
         Solid
@@ -35537,7 +36943,7 @@ sledge_native
                 Plane
                 {
                     "Normal" "-1 0 0"
-                    "DistanceFromOrigin" "-75.9999847"
+                    "DistanceFromOrigin" "-75.99998"
                 }
                 Texture
                 {
@@ -35573,7 +36979,7 @@ sledge_native
                 Plane
                 {
                     "Normal" "1 0 0"
-                    "DistanceFromOrigin" "487.999969"
+                    "DistanceFromOrigin" "488"
                 }
                 Texture
                 {
@@ -35675,87 +37081,19 @@ sledge_native
                     "Position" "75.99998 -140 252"
                 }
             }
+            VisgroupHidden
+            {
+                "IsHidden" "False"
+            }
         }
         Solid
         {
             "ID" "454"
-            "IsSelected" "True"
+            "IsSelected" "False"
             "ParentID" "1"
             ObjectColor
             {
                 "Color" "0 240 185"
-            }
-            Face
-            {
-                "ID" "2654"
-                Plane
-                {
-                    "Normal" "0 -1 0"
-                    "DistanceFromOrigin" "264"
-                }
-                Texture
-                {
-                    "Name" "c_tnnl_ccrete"
-                    "Rotation" "0"
-                    "UAxis" "1 0 0"
-                    "VAxis" "0 0 -1"
-                    "XScale" "1"
-                    "XShift" "0"
-                    "YScale" "1"
-                    "YShift" "0"
-                }
-                Vertex
-                {
-                    "Position" "160 -264 176"
-                }
-                Vertex
-                {
-                    "Position" "416 -264 176"
-                }
-                Vertex
-                {
-                    "Position" "416 -264 -8"
-                }
-                Vertex
-                {
-                    "Position" "160 -264 -8"
-                }
-            }
-            Face
-            {
-                "ID" "2655"
-                Plane
-                {
-                    "Normal" "0 1 0"
-                    "DistanceFromOrigin" "-256"
-                }
-                Texture
-                {
-                    "Name" "c_tnnl_ccrete"
-                    "Rotation" "0"
-                    "UAxis" "-1 0 0"
-                    "VAxis" "0 0 -1"
-                    "XScale" "1"
-                    "XShift" "0"
-                    "YScale" "1"
-                    "YShift" "0"
-                }
-                Vertex
-                {
-                    "Position" "416 -256 176"
-                }
-                Vertex
-                {
-                    "Position" "160 -256 176"
-                }
-                Vertex
-                {
-                    "Position" "160 -256 -8"
-                }
-                Vertex
-                {
-                    "Position" "416 -256 -8"
-                }
             }
             Face
             {
@@ -35900,6 +37238,82 @@ sledge_native
                 {
                     "Position" "160 -256 -8"
                 }
+            }
+            Face
+            {
+                "ID" "2654"
+                Plane
+                {
+                    "Normal" "0 -1 0"
+                    "DistanceFromOrigin" "264"
+                }
+                Texture
+                {
+                    "Name" "cxbrickk"
+                    "Rotation" "0"
+                    "UAxis" "1 0 0"
+                    "VAxis" "0 0 -1"
+                    "XScale" "1"
+                    "XShift" "656"
+                    "YScale" "1"
+                    "YShift" "144"
+                }
+                Vertex
+                {
+                    "Position" "160 -264 176"
+                }
+                Vertex
+                {
+                    "Position" "416 -264 176"
+                }
+                Vertex
+                {
+                    "Position" "416 -264 -8"
+                }
+                Vertex
+                {
+                    "Position" "160 -264 -8"
+                }
+            }
+            Face
+            {
+                "ID" "2655"
+                Plane
+                {
+                    "Normal" "0 1 0"
+                    "DistanceFromOrigin" "-256"
+                }
+                Texture
+                {
+                    "Name" "-0wlstucco"
+                    "Rotation" "0"
+                    "UAxis" "-1 0 0"
+                    "VAxis" "0 0 -1"
+                    "XScale" "1"
+                    "XShift" "656"
+                    "YScale" "1"
+                    "YShift" "144"
+                }
+                Vertex
+                {
+                    "Position" "416 -256 176"
+                }
+                Vertex
+                {
+                    "Position" "160 -256 176"
+                }
+                Vertex
+                {
+                    "Position" "160 -256 -8"
+                }
+                Vertex
+                {
+                    "Position" "416 -256 -8"
+                }
+            }
+            VisgroupHidden
+            {
+                "IsHidden" "False"
             }
         }
         Solid
@@ -36081,6 +37495,466 @@ sledge_native
                 Vertex
                 {
                     "Position" "592 -584 -40"
+                }
+            }
+            VisgroupHidden
+            {
+                "IsHidden" "False"
+            }
+        }
+        Solid
+        {
+            "ID" "455"
+            "IsSelected" "False"
+            "ParentID" "1"
+            ObjectColor
+            {
+                "Color" "0 175 209"
+            }
+            Face
+            {
+                "ID" "2660"
+                Plane
+                {
+                    "Normal" "0 0 -1"
+                    "DistanceFromOrigin" "0"
+                }
+                Texture
+                {
+                    "Name" "oldwood"
+                    "Rotation" "90"
+                    "UAxis" "-1.336002E-08 -1 0"
+                    "VAxis" "1 -1.336002E-08 0"
+                    "XScale" "1"
+                    "XShift" "144"
+                    "YScale" "1"
+                    "YShift" "-448"
+                }
+                Vertex
+                {
+                    "Position" "368 -112 0"
+                }
+                Vertex
+                {
+                    "Position" "480 -112 0"
+                }
+                Vertex
+                {
+                    "Position" "480 -80 0"
+                }
+                Vertex
+                {
+                    "Position" "368 -80 0"
+                }
+            }
+            Face
+            {
+                "ID" "2661"
+                Plane
+                {
+                    "Normal" "0 -1 0"
+                    "DistanceFromOrigin" "112"
+                }
+                Texture
+                {
+                    "Name" "oldwood"
+                    "Rotation" "90"
+                    "UAxis" "1.336002E-08 0 -1"
+                    "VAxis" "-1 0 -1.336002E-08"
+                    "XScale" "0.3"
+                    "XShift" "-479.999969"
+                    "YScale" "0.3"
+                    "YShift" "-160"
+                }
+                Vertex
+                {
+                    "Position" "368 -112 24"
+                }
+                Vertex
+                {
+                    "Position" "480 -112 24"
+                }
+                Vertex
+                {
+                    "Position" "480 -112 0"
+                }
+                Vertex
+                {
+                    "Position" "368 -112 0"
+                }
+            }
+            Face
+            {
+                "ID" "2662"
+                Plane
+                {
+                    "Normal" "0 0 1"
+                    "DistanceFromOrigin" "24"
+                }
+                Texture
+                {
+                    "Name" "oldwood"
+                    "Rotation" "90"
+                    "UAxis" "1.336002E-08 -1 0"
+                    "VAxis" "-1 -1.336002E-08 0"
+                    "XScale" "0.3"
+                    "XShift" "-479.999969"
+                    "YScale" "0.3"
+                    "YShift" "-1440"
+                }
+                Vertex
+                {
+                    "Position" "368 -80 24"
+                }
+                Vertex
+                {
+                    "Position" "480 -80 24"
+                }
+                Vertex
+                {
+                    "Position" "480 -112 24"
+                }
+                Vertex
+                {
+                    "Position" "368 -112 24"
+                }
+            }
+            Face
+            {
+                "ID" "2663"
+                Plane
+                {
+                    "Normal" "-1 0 0"
+                    "DistanceFromOrigin" "-368"
+                }
+                Texture
+                {
+                    "Name" "oldwood"
+                    "Rotation" "90"
+                    "UAxis" "0 -1.336002E-08 -1"
+                    "VAxis" "0 1 -1.336002E-08"
+                    "XScale" "0.3"
+                    "XShift" "-1440"
+                    "YScale" "0.3"
+                    "YShift" "-160"
+                }
+                Vertex
+                {
+                    "Position" "368 -80 24"
+                }
+                Vertex
+                {
+                    "Position" "368 -112 24"
+                }
+                Vertex
+                {
+                    "Position" "368 -112 0"
+                }
+                Vertex
+                {
+                    "Position" "368 -80 0"
+                }
+            }
+            Face
+            {
+                "ID" "2664"
+                Plane
+                {
+                    "Normal" "1 0 0"
+                    "DistanceFromOrigin" "480"
+                }
+                Texture
+                {
+                    "Name" "oldwood"
+                    "Rotation" "90"
+                    "UAxis" "0 1.336002E-08 -1"
+                    "VAxis" "0 -1 -1.336002E-08"
+                    "XScale" "0.3"
+                    "XShift" "1440"
+                    "YScale" "0.3"
+                    "YShift" "-160"
+                }
+                Vertex
+                {
+                    "Position" "480 -112 24"
+                }
+                Vertex
+                {
+                    "Position" "480 -80 24"
+                }
+                Vertex
+                {
+                    "Position" "480 -80 0"
+                }
+                Vertex
+                {
+                    "Position" "480 -112 0"
+                }
+            }
+            Face
+            {
+                "ID" "2665"
+                Plane
+                {
+                    "Normal" "0 1 0"
+                    "DistanceFromOrigin" "-80"
+                }
+                Texture
+                {
+                    "Name" "oldwood"
+                    "Rotation" "90"
+                    "UAxis" "-1.336002E-08 0 -1"
+                    "VAxis" "1 0 -1.336002E-08"
+                    "XScale" "0.3"
+                    "XShift" "479.999969"
+                    "YScale" "0.3"
+                    "YShift" "-160"
+                }
+                Vertex
+                {
+                    "Position" "480 -80 24"
+                }
+                Vertex
+                {
+                    "Position" "368 -80 24"
+                }
+                Vertex
+                {
+                    "Position" "368 -80 0"
+                }
+                Vertex
+                {
+                    "Position" "480 -80 0"
+                }
+            }
+            VisgroupHidden
+            {
+                "IsHidden" "False"
+            }
+        }
+        Solid
+        {
+            "ID" "456"
+            "IsSelected" "False"
+            "ParentID" "1"
+            ObjectColor
+            {
+                "Color" "0 175 209"
+            }
+            Face
+            {
+                "ID" "2666"
+                Plane
+                {
+                    "Normal" "0 0 -1"
+                    "DistanceFromOrigin" "0"
+                }
+                Texture
+                {
+                    "Name" "oldwood"
+                    "Rotation" "90"
+                    "UAxis" "0 -1 0"
+                    "VAxis" "1 0 0"
+                    "XScale" "1"
+                    "XShift" "144"
+                    "YScale" "1"
+                    "YShift" "-184"
+                }
+                Vertex
+                {
+                    "Position" "104 -112 0"
+                }
+                Vertex
+                {
+                    "Position" "216 -112 0"
+                }
+                Vertex
+                {
+                    "Position" "216 -80 0"
+                }
+                Vertex
+                {
+                    "Position" "104 -80 0"
+                }
+            }
+            Face
+            {
+                "ID" "2667"
+                Plane
+                {
+                    "Normal" "0 -1 0"
+                    "DistanceFromOrigin" "112"
+                }
+                Texture
+                {
+                    "Name" "oldwood"
+                    "Rotation" "90"
+                    "UAxis" "0 0 -1"
+                    "VAxis" "-1 0 -1.336002E-08"
+                    "XScale" "0.3"
+                    "XShift" "-479.999969"
+                    "YScale" "0.3"
+                    "YShift" "-1040"
+                }
+                Vertex
+                {
+                    "Position" "104 -112 24"
+                }
+                Vertex
+                {
+                    "Position" "216 -112 24"
+                }
+                Vertex
+                {
+                    "Position" "216 -112 0"
+                }
+                Vertex
+                {
+                    "Position" "104 -112 0"
+                }
+            }
+            Face
+            {
+                "ID" "2668"
+                Plane
+                {
+                    "Normal" "0 0 1"
+                    "DistanceFromOrigin" "24"
+                }
+                Texture
+                {
+                    "Name" "oldwood"
+                    "Rotation" "90"
+                    "UAxis" "0 -1 0"
+                    "VAxis" "-1 0 0"
+                    "XScale" "0.3"
+                    "XShift" "-479.999969"
+                    "YScale" "0.3"
+                    "YShift" "-2320"
+                }
+                Vertex
+                {
+                    "Position" "104 -80 24"
+                }
+                Vertex
+                {
+                    "Position" "216 -80 24"
+                }
+                Vertex
+                {
+                    "Position" "216 -112 24"
+                }
+                Vertex
+                {
+                    "Position" "104 -112 24"
+                }
+            }
+            Face
+            {
+                "ID" "2669"
+                Plane
+                {
+                    "Normal" "-1 0 0"
+                    "DistanceFromOrigin" "-104"
+                }
+                Texture
+                {
+                    "Name" "oldwood"
+                    "Rotation" "90"
+                    "UAxis" "0 0 -1"
+                    "VAxis" "0 1 -1.336002E-08"
+                    "XScale" "0.3"
+                    "XShift" "-1440"
+                    "YScale" "0.3"
+                    "YShift" "-160"
+                }
+                Vertex
+                {
+                    "Position" "104 -80 24"
+                }
+                Vertex
+                {
+                    "Position" "104 -112 24"
+                }
+                Vertex
+                {
+                    "Position" "104 -112 0"
+                }
+                Vertex
+                {
+                    "Position" "104 -80 0"
+                }
+            }
+            Face
+            {
+                "ID" "2670"
+                Plane
+                {
+                    "Normal" "1 0 0"
+                    "DistanceFromOrigin" "216"
+                }
+                Texture
+                {
+                    "Name" "oldwood"
+                    "Rotation" "90"
+                    "UAxis" "0 0 -1"
+                    "VAxis" "0 -1 -1.336002E-08"
+                    "XScale" "0.3"
+                    "XShift" "1440"
+                    "YScale" "0.3"
+                    "YShift" "-160"
+                }
+                Vertex
+                {
+                    "Position" "216 -112 24"
+                }
+                Vertex
+                {
+                    "Position" "216 -80 24"
+                }
+                Vertex
+                {
+                    "Position" "216 -80 0"
+                }
+                Vertex
+                {
+                    "Position" "216 -112 0"
+                }
+            }
+            Face
+            {
+                "ID" "2671"
+                Plane
+                {
+                    "Normal" "0 1 0"
+                    "DistanceFromOrigin" "-80"
+                }
+                Texture
+                {
+                    "Name" "oldwood"
+                    "Rotation" "90"
+                    "UAxis" "0 0 -1"
+                    "VAxis" "1 0 -1.336002E-08"
+                    "XScale" "0.3"
+                    "XShift" "479.999969"
+                    "YScale" "0.3"
+                    "YShift" "719.999939"
+                }
+                Vertex
+                {
+                    "Position" "216 -80 24"
+                }
+                Vertex
+                {
+                    "Position" "104 -80 24"
+                }
+                Vertex
+                {
+                    "Position" "104 -80 0"
+                }
+                Vertex
+                {
+                    "Position" "216 -80 0"
                 }
             }
             VisgroupHidden
@@ -36276,6 +38150,466 @@ sledge_native
         }
         Solid
         {
+            "ID" "457"
+            "IsSelected" "False"
+            "ParentID" "1"
+            ObjectColor
+            {
+                "Color" "0 175 209"
+            }
+            Face
+            {
+                "ID" "2672"
+                Plane
+                {
+                    "Normal" "0 0 -1"
+                    "DistanceFromOrigin" "0"
+                }
+                Texture
+                {
+                    "Name" "oldwood"
+                    "Rotation" "90"
+                    "UAxis" "0 -1 0"
+                    "VAxis" "1 0 0"
+                    "XScale" "1"
+                    "XShift" "224"
+                    "YScale" "1"
+                    "YShift" "-184"
+                }
+                Vertex
+                {
+                    "Position" "104 -32 0"
+                }
+                Vertex
+                {
+                    "Position" "216 -32 0"
+                }
+                Vertex
+                {
+                    "Position" "216 0 0"
+                }
+                Vertex
+                {
+                    "Position" "104 0 0"
+                }
+            }
+            Face
+            {
+                "ID" "2673"
+                Plane
+                {
+                    "Normal" "0 -1 0"
+                    "DistanceFromOrigin" "32"
+                }
+                Texture
+                {
+                    "Name" "oldwood"
+                    "Rotation" "90"
+                    "UAxis" "0 0 -1"
+                    "VAxis" "-1 0 -1.336002E-08"
+                    "XScale" "0.3"
+                    "XShift" "-479.999969"
+                    "YScale" "0.3"
+                    "YShift" "-1040"
+                }
+                Vertex
+                {
+                    "Position" "104 -32 24"
+                }
+                Vertex
+                {
+                    "Position" "216 -32 24"
+                }
+                Vertex
+                {
+                    "Position" "216 -32 0"
+                }
+                Vertex
+                {
+                    "Position" "104 -32 0"
+                }
+            }
+            Face
+            {
+                "ID" "2674"
+                Plane
+                {
+                    "Normal" "0 0 1"
+                    "DistanceFromOrigin" "24"
+                }
+                Texture
+                {
+                    "Name" "oldwood"
+                    "Rotation" "90"
+                    "UAxis" "0 -1 0"
+                    "VAxis" "-1 0 0"
+                    "XScale" "0.3"
+                    "XShift" "-213.333313"
+                    "YScale" "0.3"
+                    "YShift" "-2320"
+                }
+                Vertex
+                {
+                    "Position" "104 0 24"
+                }
+                Vertex
+                {
+                    "Position" "216 0 24"
+                }
+                Vertex
+                {
+                    "Position" "216 -32 24"
+                }
+                Vertex
+                {
+                    "Position" "104 -32 24"
+                }
+            }
+            Face
+            {
+                "ID" "2675"
+                Plane
+                {
+                    "Normal" "-1 0 0"
+                    "DistanceFromOrigin" "-104"
+                }
+                Texture
+                {
+                    "Name" "oldwood"
+                    "Rotation" "90"
+                    "UAxis" "0 0 -1"
+                    "VAxis" "0 1 -1.336002E-08"
+                    "XScale" "0.3"
+                    "XShift" "-1440"
+                    "YScale" "0.3"
+                    "YShift" "-426.666656"
+                }
+                Vertex
+                {
+                    "Position" "104 0 24"
+                }
+                Vertex
+                {
+                    "Position" "104 -32 24"
+                }
+                Vertex
+                {
+                    "Position" "104 -32 0"
+                }
+                Vertex
+                {
+                    "Position" "104 0 0"
+                }
+            }
+            Face
+            {
+                "ID" "2676"
+                Plane
+                {
+                    "Normal" "1 0 0"
+                    "DistanceFromOrigin" "216"
+                }
+                Texture
+                {
+                    "Name" "oldwood"
+                    "Rotation" "90"
+                    "UAxis" "0 0 -1"
+                    "VAxis" "0 -1 -1.336002E-08"
+                    "XScale" "0.3"
+                    "XShift" "1440"
+                    "YScale" "0.3"
+                    "YShift" "106.666656"
+                }
+                Vertex
+                {
+                    "Position" "216 -32 24"
+                }
+                Vertex
+                {
+                    "Position" "216 0 24"
+                }
+                Vertex
+                {
+                    "Position" "216 0 0"
+                }
+                Vertex
+                {
+                    "Position" "216 -32 0"
+                }
+            }
+            Face
+            {
+                "ID" "2677"
+                Plane
+                {
+                    "Normal" "0 1 0"
+                    "DistanceFromOrigin" "0"
+                }
+                Texture
+                {
+                    "Name" "oldwood"
+                    "Rotation" "90"
+                    "UAxis" "0 0 -1"
+                    "VAxis" "1 0 -1.336002E-08"
+                    "XScale" "0.3"
+                    "XShift" "479.999969"
+                    "YScale" "0.3"
+                    "YShift" "719.999939"
+                }
+                Vertex
+                {
+                    "Position" "216 0 24"
+                }
+                Vertex
+                {
+                    "Position" "104 0 24"
+                }
+                Vertex
+                {
+                    "Position" "104 0 0"
+                }
+                Vertex
+                {
+                    "Position" "216 0 0"
+                }
+            }
+            VisgroupHidden
+            {
+                "IsHidden" "False"
+            }
+        }
+        Solid
+        {
+            "ID" "458"
+            "IsSelected" "False"
+            "ParentID" "1"
+            ObjectColor
+            {
+                "Color" "0 175 209"
+            }
+            Face
+            {
+                "ID" "2678"
+                Plane
+                {
+                    "Normal" "0 0 -1"
+                    "DistanceFromOrigin" "0"
+                }
+                Texture
+                {
+                    "Name" "oldwood"
+                    "Rotation" "90"
+                    "UAxis" "-1.336002E-08 -1 0"
+                    "VAxis" "1 0 0"
+                    "XScale" "1"
+                    "XShift" "224"
+                    "YScale" "1"
+                    "YShift" "-448"
+                }
+                Vertex
+                {
+                    "Position" "368 -32 0"
+                }
+                Vertex
+                {
+                    "Position" "480 -32 0"
+                }
+                Vertex
+                {
+                    "Position" "480 0 0"
+                }
+                Vertex
+                {
+                    "Position" "368 0 0"
+                }
+            }
+            Face
+            {
+                "ID" "2679"
+                Plane
+                {
+                    "Normal" "0 -1 0"
+                    "DistanceFromOrigin" "32"
+                }
+                Texture
+                {
+                    "Name" "oldwood"
+                    "Rotation" "90"
+                    "UAxis" "1.336002E-08 0 -1"
+                    "VAxis" "-1 0 -1.336002E-08"
+                    "XScale" "0.3"
+                    "XShift" "-479.999969"
+                    "YScale" "0.3"
+                    "YShift" "-160"
+                }
+                Vertex
+                {
+                    "Position" "368 -32 24"
+                }
+                Vertex
+                {
+                    "Position" "480 -32 24"
+                }
+                Vertex
+                {
+                    "Position" "480 -32 0"
+                }
+                Vertex
+                {
+                    "Position" "368 -32 0"
+                }
+            }
+            Face
+            {
+                "ID" "2680"
+                Plane
+                {
+                    "Normal" "0 0 1"
+                    "DistanceFromOrigin" "24"
+                }
+                Texture
+                {
+                    "Name" "oldwood"
+                    "Rotation" "90"
+                    "UAxis" "1.336002E-08 -1 0"
+                    "VAxis" "-1 0 0"
+                    "XScale" "0.3"
+                    "XShift" "-213.333313"
+                    "YScale" "0.3"
+                    "YShift" "-1440"
+                }
+                Vertex
+                {
+                    "Position" "368 0 24"
+                }
+                Vertex
+                {
+                    "Position" "480 0 24"
+                }
+                Vertex
+                {
+                    "Position" "480 -32 24"
+                }
+                Vertex
+                {
+                    "Position" "368 -32 24"
+                }
+            }
+            Face
+            {
+                "ID" "2681"
+                Plane
+                {
+                    "Normal" "-1 0 0"
+                    "DistanceFromOrigin" "-368"
+                }
+                Texture
+                {
+                    "Name" "oldwood"
+                    "Rotation" "90"
+                    "UAxis" "0 0 -1"
+                    "VAxis" "0 1 -1.336002E-08"
+                    "XScale" "0.3"
+                    "XShift" "-1440"
+                    "YScale" "0.3"
+                    "YShift" "-426.666656"
+                }
+                Vertex
+                {
+                    "Position" "368 0 24"
+                }
+                Vertex
+                {
+                    "Position" "368 -32 24"
+                }
+                Vertex
+                {
+                    "Position" "368 -32 0"
+                }
+                Vertex
+                {
+                    "Position" "368 0 0"
+                }
+            }
+            Face
+            {
+                "ID" "2682"
+                Plane
+                {
+                    "Normal" "1 0 0"
+                    "DistanceFromOrigin" "480"
+                }
+                Texture
+                {
+                    "Name" "oldwood"
+                    "Rotation" "90"
+                    "UAxis" "0 0 -1"
+                    "VAxis" "0 -1 -1.336002E-08"
+                    "XScale" "0.3"
+                    "XShift" "1440"
+                    "YScale" "0.3"
+                    "YShift" "106.666656"
+                }
+                Vertex
+                {
+                    "Position" "480 -32 24"
+                }
+                Vertex
+                {
+                    "Position" "480 0 24"
+                }
+                Vertex
+                {
+                    "Position" "480 0 0"
+                }
+                Vertex
+                {
+                    "Position" "480 -32 0"
+                }
+            }
+            Face
+            {
+                "ID" "2683"
+                Plane
+                {
+                    "Normal" "0 1 0"
+                    "DistanceFromOrigin" "0"
+                }
+                Texture
+                {
+                    "Name" "oldwood"
+                    "Rotation" "90"
+                    "UAxis" "-1.336002E-08 0 -1"
+                    "VAxis" "1 0 -1.336002E-08"
+                    "XScale" "0.3"
+                    "XShift" "479.999969"
+                    "YScale" "0.3"
+                    "YShift" "-160"
+                }
+                Vertex
+                {
+                    "Position" "480 0 24"
+                }
+                Vertex
+                {
+                    "Position" "368 0 24"
+                }
+                Vertex
+                {
+                    "Position" "368 0 0"
+                }
+                Vertex
+                {
+                    "Position" "480 0 0"
+                }
+            }
+            VisgroupHidden
+            {
+                "IsHidden" "False"
+            }
+        }
+        Solid
+        {
             "ID" "181"
             "IsSelected" "False"
             "ParentID" "1"
@@ -36453,6 +38787,466 @@ sledge_native
                 Vertex
                 {
                     "Position" "592 -536 -16"
+                }
+            }
+            VisgroupHidden
+            {
+                "IsHidden" "False"
+            }
+        }
+        Solid
+        {
+            "ID" "459"
+            "IsSelected" "False"
+            "ParentID" "1"
+            ObjectColor
+            {
+                "Color" "0 175 209"
+            }
+            Face
+            {
+                "ID" "2684"
+                Plane
+                {
+                    "Normal" "0 0 -1"
+                    "DistanceFromOrigin" "0"
+                }
+                Texture
+                {
+                    "Name" "oldwood"
+                    "Rotation" "90"
+                    "UAxis" "0 -1 0"
+                    "VAxis" "1 0 0"
+                    "XScale" "1"
+                    "XShift" "304"
+                    "YScale" "1"
+                    "YShift" "-184"
+                }
+                Vertex
+                {
+                    "Position" "104 48 0"
+                }
+                Vertex
+                {
+                    "Position" "216 48 0"
+                }
+                Vertex
+                {
+                    "Position" "216 80 0"
+                }
+                Vertex
+                {
+                    "Position" "104 80 0"
+                }
+            }
+            Face
+            {
+                "ID" "2685"
+                Plane
+                {
+                    "Normal" "0 -1 0"
+                    "DistanceFromOrigin" "-48"
+                }
+                Texture
+                {
+                    "Name" "oldwood"
+                    "Rotation" "90"
+                    "UAxis" "0 0 -1"
+                    "VAxis" "-1 0 -1.336002E-08"
+                    "XScale" "0.3"
+                    "XShift" "-479.999969"
+                    "YScale" "0.3"
+                    "YShift" "-1040"
+                }
+                Vertex
+                {
+                    "Position" "104 48 24"
+                }
+                Vertex
+                {
+                    "Position" "216 48 24"
+                }
+                Vertex
+                {
+                    "Position" "216 48 0"
+                }
+                Vertex
+                {
+                    "Position" "104 48 0"
+                }
+            }
+            Face
+            {
+                "ID" "2686"
+                Plane
+                {
+                    "Normal" "0 0 1"
+                    "DistanceFromOrigin" "24"
+                }
+                Texture
+                {
+                    "Name" "oldwood"
+                    "Rotation" "90"
+                    "UAxis" "0 -1 0"
+                    "VAxis" "-1 0 0"
+                    "XScale" "0.3"
+                    "XShift" "53.3333435"
+                    "YScale" "0.3"
+                    "YShift" "-2320"
+                }
+                Vertex
+                {
+                    "Position" "104 80 24"
+                }
+                Vertex
+                {
+                    "Position" "216 80 24"
+                }
+                Vertex
+                {
+                    "Position" "216 48 24"
+                }
+                Vertex
+                {
+                    "Position" "104 48 24"
+                }
+            }
+            Face
+            {
+                "ID" "2687"
+                Plane
+                {
+                    "Normal" "-1 0 0"
+                    "DistanceFromOrigin" "-104"
+                }
+                Texture
+                {
+                    "Name" "oldwood"
+                    "Rotation" "90"
+                    "UAxis" "0 0 -1"
+                    "VAxis" "0 1 -1.336002E-08"
+                    "XScale" "0.3"
+                    "XShift" "-1440"
+                    "YScale" "0.3"
+                    "YShift" "-693.3333"
+                }
+                Vertex
+                {
+                    "Position" "104 80 24"
+                }
+                Vertex
+                {
+                    "Position" "104 48 24"
+                }
+                Vertex
+                {
+                    "Position" "104 48 0"
+                }
+                Vertex
+                {
+                    "Position" "104 80 0"
+                }
+            }
+            Face
+            {
+                "ID" "2688"
+                Plane
+                {
+                    "Normal" "1 0 0"
+                    "DistanceFromOrigin" "216"
+                }
+                Texture
+                {
+                    "Name" "oldwood"
+                    "Rotation" "90"
+                    "UAxis" "0 0 -1"
+                    "VAxis" "0 -1 -1.336002E-08"
+                    "XScale" "0.3"
+                    "XShift" "1440"
+                    "YScale" "0.3"
+                    "YShift" "373.3333"
+                }
+                Vertex
+                {
+                    "Position" "216 48 24"
+                }
+                Vertex
+                {
+                    "Position" "216 80 24"
+                }
+                Vertex
+                {
+                    "Position" "216 80 0"
+                }
+                Vertex
+                {
+                    "Position" "216 48 0"
+                }
+            }
+            Face
+            {
+                "ID" "2689"
+                Plane
+                {
+                    "Normal" "0 1 0"
+                    "DistanceFromOrigin" "80"
+                }
+                Texture
+                {
+                    "Name" "oldwood"
+                    "Rotation" "90"
+                    "UAxis" "0 0 -1"
+                    "VAxis" "1 0 -1.336002E-08"
+                    "XScale" "0.3"
+                    "XShift" "479.999969"
+                    "YScale" "0.3"
+                    "YShift" "719.999939"
+                }
+                Vertex
+                {
+                    "Position" "216 80 24"
+                }
+                Vertex
+                {
+                    "Position" "104 80 24"
+                }
+                Vertex
+                {
+                    "Position" "104 80 0"
+                }
+                Vertex
+                {
+                    "Position" "216 80 0"
+                }
+            }
+            VisgroupHidden
+            {
+                "IsHidden" "False"
+            }
+        }
+        Solid
+        {
+            "ID" "460"
+            "IsSelected" "False"
+            "ParentID" "1"
+            ObjectColor
+            {
+                "Color" "0 175 209"
+            }
+            Face
+            {
+                "ID" "2690"
+                Plane
+                {
+                    "Normal" "0 0 -1"
+                    "DistanceFromOrigin" "0"
+                }
+                Texture
+                {
+                    "Name" "oldwood"
+                    "Rotation" "90"
+                    "UAxis" "-1.336002E-08 -1 0"
+                    "VAxis" "1 0 0"
+                    "XScale" "1"
+                    "XShift" "304"
+                    "YScale" "1"
+                    "YShift" "-448"
+                }
+                Vertex
+                {
+                    "Position" "368 48 0"
+                }
+                Vertex
+                {
+                    "Position" "480 48 0"
+                }
+                Vertex
+                {
+                    "Position" "480 80 0"
+                }
+                Vertex
+                {
+                    "Position" "368 80 0"
+                }
+            }
+            Face
+            {
+                "ID" "2691"
+                Plane
+                {
+                    "Normal" "0 -1 0"
+                    "DistanceFromOrigin" "-48"
+                }
+                Texture
+                {
+                    "Name" "oldwood"
+                    "Rotation" "90"
+                    "UAxis" "1.336002E-08 0 -1"
+                    "VAxis" "-1 0 -1.336002E-08"
+                    "XScale" "0.3"
+                    "XShift" "-479.999969"
+                    "YScale" "0.3"
+                    "YShift" "-160"
+                }
+                Vertex
+                {
+                    "Position" "368 48 24"
+                }
+                Vertex
+                {
+                    "Position" "480 48 24"
+                }
+                Vertex
+                {
+                    "Position" "480 48 0"
+                }
+                Vertex
+                {
+                    "Position" "368 48 0"
+                }
+            }
+            Face
+            {
+                "ID" "2692"
+                Plane
+                {
+                    "Normal" "0 0 1"
+                    "DistanceFromOrigin" "24"
+                }
+                Texture
+                {
+                    "Name" "oldwood"
+                    "Rotation" "90"
+                    "UAxis" "1.336002E-08 -1 0"
+                    "VAxis" "-1 0 0"
+                    "XScale" "0.3"
+                    "XShift" "53.3333435"
+                    "YScale" "0.3"
+                    "YShift" "-1440"
+                }
+                Vertex
+                {
+                    "Position" "368 80 24"
+                }
+                Vertex
+                {
+                    "Position" "480 80 24"
+                }
+                Vertex
+                {
+                    "Position" "480 48 24"
+                }
+                Vertex
+                {
+                    "Position" "368 48 24"
+                }
+            }
+            Face
+            {
+                "ID" "2693"
+                Plane
+                {
+                    "Normal" "-1 0 0"
+                    "DistanceFromOrigin" "-368"
+                }
+                Texture
+                {
+                    "Name" "oldwood"
+                    "Rotation" "90"
+                    "UAxis" "0 0 -1"
+                    "VAxis" "0 1 -1.336002E-08"
+                    "XScale" "0.3"
+                    "XShift" "-1440"
+                    "YScale" "0.3"
+                    "YShift" "-693.3333"
+                }
+                Vertex
+                {
+                    "Position" "368 80 24"
+                }
+                Vertex
+                {
+                    "Position" "368 48 24"
+                }
+                Vertex
+                {
+                    "Position" "368 48 0"
+                }
+                Vertex
+                {
+                    "Position" "368 80 0"
+                }
+            }
+            Face
+            {
+                "ID" "2694"
+                Plane
+                {
+                    "Normal" "1 0 0"
+                    "DistanceFromOrigin" "480"
+                }
+                Texture
+                {
+                    "Name" "oldwood"
+                    "Rotation" "90"
+                    "UAxis" "0 0 -1"
+                    "VAxis" "0 -1 -1.336002E-08"
+                    "XScale" "0.3"
+                    "XShift" "1440"
+                    "YScale" "0.3"
+                    "YShift" "373.3333"
+                }
+                Vertex
+                {
+                    "Position" "480 48 24"
+                }
+                Vertex
+                {
+                    "Position" "480 80 24"
+                }
+                Vertex
+                {
+                    "Position" "480 80 0"
+                }
+                Vertex
+                {
+                    "Position" "480 48 0"
+                }
+            }
+            Face
+            {
+                "ID" "2695"
+                Plane
+                {
+                    "Normal" "0 1 0"
+                    "DistanceFromOrigin" "80"
+                }
+                Texture
+                {
+                    "Name" "oldwood"
+                    "Rotation" "90"
+                    "UAxis" "-1.336002E-08 0 -1"
+                    "VAxis" "1 0 -1.336002E-08"
+                    "XScale" "0.3"
+                    "XShift" "479.999969"
+                    "YScale" "0.3"
+                    "YShift" "-160"
+                }
+                Vertex
+                {
+                    "Position" "480 80 24"
+                }
+                Vertex
+                {
+                    "Position" "368 80 24"
+                }
+                Vertex
+                {
+                    "Position" "368 80 0"
+                }
+                Vertex
+                {
+                    "Position" "480 80 0"
                 }
             }
             VisgroupHidden
@@ -36648,6 +39442,466 @@ sledge_native
         }
         Solid
         {
+            "ID" "461"
+            "IsSelected" "False"
+            "ParentID" "1"
+            ObjectColor
+            {
+                "Color" "0 155 151"
+            }
+            Face
+            {
+                "ID" "2698"
+                Plane
+                {
+                    "Normal" "-1 0 0"
+                    "DistanceFromOrigin" "16"
+                }
+                Texture
+                {
+                    "Name" "cxbrickk"
+                    "Rotation" "0"
+                    "UAxis" "0 -1 0"
+                    "VAxis" "0 0 -1"
+                    "XScale" "1"
+                    "XShift" "0"
+                    "YScale" "1"
+                    "YShift" "0"
+                }
+                Vertex
+                {
+                    "Position" "-16 504 128"
+                }
+                Vertex
+                {
+                    "Position" "-16 456 128"
+                }
+                Vertex
+                {
+                    "Position" "-16 456 48"
+                }
+                Vertex
+                {
+                    "Position" "-16 504 48"
+                }
+            }
+            Face
+            {
+                "ID" "2700"
+                Plane
+                {
+                    "Normal" "0 0 1"
+                    "DistanceFromOrigin" "128"
+                }
+                Texture
+                {
+                    "Name" "bigcrate0"
+                    "Rotation" "0"
+                    "UAxis" "1 0 0"
+                    "VAxis" "0 -1 0"
+                    "XScale" "0.375"
+                    "XShift" "42.6666679"
+                    "YScale" "0.375"
+                    "YShift" "1344.00012"
+                }
+                Vertex
+                {
+                    "Position" "-16 504 128"
+                }
+                Vertex
+                {
+                    "Position" "80 504 128"
+                }
+                Vertex
+                {
+                    "Position" "80 456 128"
+                }
+                Vertex
+                {
+                    "Position" "-16 456 128"
+                }
+            }
+            Face
+            {
+                "ID" "2697"
+                Plane
+                {
+                    "Normal" "0 1 0"
+                    "DistanceFromOrigin" "504"
+                }
+                Texture
+                {
+                    "Name" "null"
+                    "Rotation" "0"
+                    "UAxis" "-1 0 0"
+                    "VAxis" "0 0 -1"
+                    "XScale" "1"
+                    "XShift" "0"
+                    "YScale" "1"
+                    "YShift" "0"
+                }
+                Vertex
+                {
+                    "Position" "80 504 128"
+                }
+                Vertex
+                {
+                    "Position" "-16 504 128"
+                }
+                Vertex
+                {
+                    "Position" "-16 504 48"
+                }
+                Vertex
+                {
+                    "Position" "80 504 48"
+                }
+            }
+            Face
+            {
+                "ID" "2701"
+                Plane
+                {
+                    "Normal" "0 0 -1"
+                    "DistanceFromOrigin" "-48"
+                }
+                Texture
+                {
+                    "Name" "null"
+                    "Rotation" "0"
+                    "UAxis" "-1 0 0"
+                    "VAxis" "0 -1 0"
+                    "XScale" "1"
+                    "XShift" "0"
+                    "YScale" "1"
+                    "YShift" "0"
+                }
+                Vertex
+                {
+                    "Position" "-16 456 48"
+                }
+                Vertex
+                {
+                    "Position" "80 456 48"
+                }
+                Vertex
+                {
+                    "Position" "80 504 48"
+                }
+                Vertex
+                {
+                    "Position" "-16 504 48"
+                }
+            }
+            Face
+            {
+                "ID" "2699"
+                Plane
+                {
+                    "Normal" "1 0 0"
+                    "DistanceFromOrigin" "80"
+                }
+                Texture
+                {
+                    "Name" "bigcrate0"
+                    "Rotation" "0"
+                    "UAxis" "0 1 0"
+                    "VAxis" "0 0 -1"
+                    "XScale" "0.375"
+                    "XShift" "-1216"
+                    "YScale" "0.625"
+                    "YShift" "204.8"
+                }
+                Vertex
+                {
+                    "Position" "80 456 128"
+                }
+                Vertex
+                {
+                    "Position" "80 504 128"
+                }
+                Vertex
+                {
+                    "Position" "80 504 48"
+                }
+                Vertex
+                {
+                    "Position" "80 456 48"
+                }
+            }
+            Face
+            {
+                "ID" "2696"
+                Plane
+                {
+                    "Normal" "0 -1 0"
+                    "DistanceFromOrigin" "-456"
+                }
+                Texture
+                {
+                    "Name" "bigcrate0"
+                    "Rotation" "0"
+                    "UAxis" "1 0 0"
+                    "VAxis" "0 0 -1"
+                    "XScale" "0.375"
+                    "XShift" "42.6666679"
+                    "YScale" "0.625"
+                    "YShift" "204.8"
+                }
+                Vertex
+                {
+                    "Position" "-16 456 128"
+                }
+                Vertex
+                {
+                    "Position" "80 456 128"
+                }
+                Vertex
+                {
+                    "Position" "80 456 48"
+                }
+                Vertex
+                {
+                    "Position" "-16 456 48"
+                }
+            }
+            VisgroupHidden
+            {
+                "IsHidden" "False"
+            }
+        }
+        Solid
+        {
+            "ID" "462"
+            "IsSelected" "False"
+            "ParentID" "1"
+            ObjectColor
+            {
+                "Color" "0 155 151"
+            }
+            Face
+            {
+                "ID" "2702"
+                Plane
+                {
+                    "Normal" "-1 0 0"
+                    "DistanceFromOrigin" "16"
+                }
+                Texture
+                {
+                    "Name" "cxbrickk"
+                    "Rotation" "0"
+                    "UAxis" "0 -1 0"
+                    "VAxis" "0 0 -1"
+                    "XScale" "1"
+                    "XShift" "-40"
+                    "YScale" "1"
+                    "YShift" "0"
+                }
+                Vertex
+                {
+                    "Position" "-16 456 88"
+                }
+                Vertex
+                {
+                    "Position" "-16 416 88"
+                }
+                Vertex
+                {
+                    "Position" "-16 416 48"
+                }
+                Vertex
+                {
+                    "Position" "-16 456 48"
+                }
+            }
+            Face
+            {
+                "ID" "2705"
+                Plane
+                {
+                    "Normal" "0 1 0"
+                    "DistanceFromOrigin" "456"
+                }
+                Texture
+                {
+                    "Name" "null"
+                    "Rotation" "0"
+                    "UAxis" "-1 0 0"
+                    "VAxis" "0 0 -1"
+                    "XScale" "1"
+                    "XShift" "0"
+                    "YScale" "1"
+                    "YShift" "0"
+                }
+                Vertex
+                {
+                    "Position" "32 456 88"
+                }
+                Vertex
+                {
+                    "Position" "-16 456 88"
+                }
+                Vertex
+                {
+                    "Position" "-16 456 48"
+                }
+                Vertex
+                {
+                    "Position" "32 456 48"
+                }
+            }
+            Face
+            {
+                "ID" "2706"
+                Plane
+                {
+                    "Normal" "0 0 -1"
+                    "DistanceFromOrigin" "-48"
+                }
+                Texture
+                {
+                    "Name" "null"
+                    "Rotation" "0"
+                    "UAxis" "-1 0 0"
+                    "VAxis" "0 -1 0"
+                    "XScale" "1"
+                    "XShift" "0"
+                    "YScale" "1"
+                    "YShift" "-40"
+                }
+                Vertex
+                {
+                    "Position" "-16 416 48"
+                }
+                Vertex
+                {
+                    "Position" "32 416 48"
+                }
+                Vertex
+                {
+                    "Position" "32 456 48"
+                }
+                Vertex
+                {
+                    "Position" "-16 456 48"
+                }
+            }
+            Face
+            {
+                "ID" "2707"
+                Plane
+                {
+                    "Normal" "0 -1 0"
+                    "DistanceFromOrigin" "-416"
+                }
+                Texture
+                {
+                    "Name" "null"
+                    "Rotation" "0"
+                    "UAxis" "1 0 0"
+                    "VAxis" "0 0 -1"
+                    "XScale" "1"
+                    "XShift" "0"
+                    "YScale" "1"
+                    "YShift" "0"
+                }
+                Vertex
+                {
+                    "Position" "-16 416 88"
+                }
+                Vertex
+                {
+                    "Position" "32 416 88"
+                }
+                Vertex
+                {
+                    "Position" "32 416 48"
+                }
+                Vertex
+                {
+                    "Position" "-16 416 48"
+                }
+            }
+            Face
+            {
+                "ID" "2703"
+                Plane
+                {
+                    "Normal" "1 0 0"
+                    "DistanceFromOrigin" "32"
+                }
+                Texture
+                {
+                    "Name" "bigcrate0"
+                    "Rotation" "0"
+                    "UAxis" "0 1 0"
+                    "VAxis" "0 0 -1"
+                    "XScale" "0.3125"
+                    "XShift" "-1331.2"
+                    "YScale" "0.3125"
+                    "YShift" "281.6"
+                }
+                Vertex
+                {
+                    "Position" "32 416 88"
+                }
+                Vertex
+                {
+                    "Position" "32 456 88"
+                }
+                Vertex
+                {
+                    "Position" "32 456 48"
+                }
+                Vertex
+                {
+                    "Position" "32 416 48"
+                }
+            }
+            Face
+            {
+                "ID" "2704"
+                Plane
+                {
+                    "Normal" "0 0 1"
+                    "DistanceFromOrigin" "88"
+                }
+                Texture
+                {
+                    "Name" "bigcrate0"
+                    "Rotation" "0"
+                    "UAxis" "1 0 0"
+                    "VAxis" "0 -1 0"
+                    "XScale" "0.375"
+                    "XShift" "42.6666679"
+                    "YScale" "0.3125"
+                    "YShift" "1459.2"
+                }
+                Vertex
+                {
+                    "Position" "-16 456 88"
+                }
+                Vertex
+                {
+                    "Position" "32 456 88"
+                }
+                Vertex
+                {
+                    "Position" "32 416 88"
+                }
+                Vertex
+                {
+                    "Position" "-16 416 88"
+                }
+            }
+            VisgroupHidden
+            {
+                "IsHidden" "False"
+            }
+        }
+        Solid
+        {
             "ID" "185"
             "IsSelected" "False"
             "ParentID" "1"
@@ -36830,6 +40084,732 @@ sledge_native
             VisgroupHidden
             {
                 "IsHidden" "False"
+            }
+        }
+        Solid
+        {
+            "ID" "476"
+            "IsSelected" "False"
+            "ParentID" "1"
+            Face
+            {
+                "ID" "2786"
+                Plane
+                {
+                    "Normal" "0.4836839 0 0.8752428"
+                    "DistanceFromOrigin" "464.522766"
+                }
+                Texture
+                {
+                    "Name" "c_tnnl_ccrete"
+                    "Rotation" "0"
+                    "UAxis" "0.8752428 0 -0.4836839"
+                    "VAxis" "0 -1 0"
+                    "XScale" "1"
+                    "XShift" "0"
+                    "YScale" "1"
+                    "YShift" "104"
+                }
+                Vertex
+                {
+                    "Position" "592 -256 203.58"
+                }
+                Vertex
+                {
+                    "Position" "592 -264 203.58"
+                }
+                Vertex
+                {
+                    "Position" "280 -264 376"
+                }
+                Vertex
+                {
+                    "Position" "280 -256 376"
+                }
+            }
+            Face
+            {
+                "ID" "2787"
+                Plane
+                {
+                    "Normal" "-0.4913115 0 0.870984"
+                    "DistanceFromOrigin" "189.92276"
+                }
+                Texture
+                {
+                    "Name" "c_tnnl_ccrete"
+                    "Rotation" "0"
+                    "UAxis" "0.8709825 0 0.4913141"
+                    "VAxis" "0 -1 0"
+                    "XScale" "1"
+                    "XShift" "0"
+                    "YScale" "1"
+                    "YShift" "104"
+                }
+                Vertex
+                {
+                    "Position" "280 -256 376"
+                }
+                Vertex
+                {
+                    "Position" "280 -264 376"
+                }
+                Vertex
+                {
+                    "Position" "-16 -264 209.03"
+                }
+                Vertex
+                {
+                    "Position" "-16 -256 209.03"
+                }
+            }
+            Face
+            {
+                "ID" "2788"
+                Plane
+                {
+                    "Normal" "-1 0 0"
+                    "DistanceFromOrigin" "16"
+                }
+                Texture
+                {
+                    "Name" "c_tnnl_ccrete"
+                    "Rotation" "0"
+                    "UAxis" "0 -1 0"
+                    "VAxis" "0 0 -1"
+                    "XScale" "1"
+                    "XShift" "0"
+                    "YScale" "1"
+                    "YShift" "104"
+                }
+                Vertex
+                {
+                    "Position" "-16 -256 209.03"
+                }
+                Vertex
+                {
+                    "Position" "-16 -264 209.03"
+                }
+                Vertex
+                {
+                    "Position" "-16 -264 184"
+                }
+                Vertex
+                {
+                    "Position" "-16 -256 184"
+                }
+            }
+            Face
+            {
+                "ID" "2789"
+                Plane
+                {
+                    "Normal" "1 0 0"
+                    "DistanceFromOrigin" "592"
+                }
+                Texture
+                {
+                    "Name" "c_tnnl_ccrete"
+                    "Rotation" "0"
+                    "UAxis" "0 1 0"
+                    "VAxis" "0 0 -1"
+                    "XScale" "1"
+                    "XShift" "0"
+                    "YScale" "1"
+                    "YShift" "104"
+                }
+                Vertex
+                {
+                    "Position" "592 -264 203.58"
+                }
+                Vertex
+                {
+                    "Position" "592 -256 203.58"
+                }
+                Vertex
+                {
+                    "Position" "592 -256 184"
+                }
+                Vertex
+                {
+                    "Position" "592 -264 184"
+                }
+            }
+            Face
+            {
+                "ID" "2790"
+                Plane
+                {
+                    "Normal" "0 0 -1"
+                    "DistanceFromOrigin" "-184"
+                }
+                Texture
+                {
+                    "Name" "c_tnnl_ccrete"
+                    "Rotation" "0"
+                    "UAxis" "-1 0 0"
+                    "VAxis" "0 -1 0"
+                    "XScale" "1"
+                    "XShift" "-7.62939453E-06"
+                    "YScale" "1"
+                    "YShift" "0"
+                }
+                Vertex
+                {
+                    "Position" "-16 -256 184"
+                }
+                Vertex
+                {
+                    "Position" "-16 -264 184"
+                }
+                Vertex
+                {
+                    "Position" "592 -264 184"
+                }
+                Vertex
+                {
+                    "Position" "592 -256 184"
+                }
+            }
+            Face
+            {
+                "ID" "2791"
+                Plane
+                {
+                    "Normal" "0 -1 0"
+                    "DistanceFromOrigin" "264"
+                }
+                Texture
+                {
+                    "Name" "cxbrickk"
+                    "Rotation" "0"
+                    "UAxis" "1 0 0"
+                    "VAxis" "0 0 -1"
+                    "XScale" "1"
+                    "XShift" "656"
+                    "YScale" "1"
+                    "YShift" "248"
+                }
+                Vertex
+                {
+                    "Position" "-16 -264 209.03"
+                }
+                Vertex
+                {
+                    "Position" "280 -264 376"
+                }
+                Vertex
+                {
+                    "Position" "592 -264 203.58"
+                }
+                Vertex
+                {
+                    "Position" "592 -264 184"
+                }
+                Vertex
+                {
+                    "Position" "-16 -264 184"
+                }
+            }
+            Face
+            {
+                "ID" "2792"
+                Plane
+                {
+                    "Normal" "0 1 0"
+                    "DistanceFromOrigin" "-256"
+                }
+                Texture
+                {
+                    "Name" "-0wlstucco"
+                    "Rotation" "0"
+                    "UAxis" "-1 0 0"
+                    "VAxis" "0 0 -1"
+                    "XScale" "1"
+                    "XShift" "656"
+                    "YScale" "1"
+                    "YShift" "248"
+                }
+                Vertex
+                {
+                    "Position" "592 -256 203.58"
+                }
+                Vertex
+                {
+                    "Position" "280 -256 376"
+                }
+                Vertex
+                {
+                    "Position" "-16 -256 209.03"
+                }
+                Vertex
+                {
+                    "Position" "-16 -256 184"
+                }
+                Vertex
+                {
+                    "Position" "592 -256 184"
+                }
+            }
+            ObjectColor
+            {
+                "Color" "0 240 185"
+            }
+            VisgroupHidden
+            {
+                "IsHidden" "False"
+            }
+        }
+        Solid
+        {
+            "ID" "479"
+            "IsSelected" "False"
+            "ParentID" "1"
+            ObjectColor
+            {
+                "Color" "0 155 151"
+            }
+            Face
+            {
+                "ID" "2801"
+                Plane
+                {
+                    "Normal" "0 0 -1"
+                    "DistanceFromOrigin" "16"
+                }
+                Texture
+                {
+                    "Name" "null"
+                    "Rotation" "0"
+                    "UAxis" "-1 0 0"
+                    "VAxis" "0 -1 0"
+                    "XScale" "3"
+                    "XShift" "-42.6666679"
+                    "YScale" "3.00000381"
+                    "YShift" "261.333"
+                }
+                Vertex
+                {
+                    "Position" "-176 735.9999 -16"
+                }
+                Vertex
+                {
+                    "Position" "-128 735.9999 -16"
+                }
+                Vertex
+                {
+                    "Position" "-128 784 -16"
+                }
+                Vertex
+                {
+                    "Position" "-176 784 -16"
+                }
+            }
+            Face
+            {
+                "ID" "2802"
+                Plane
+                {
+                    "Normal" "0 -1 0"
+                    "DistanceFromOrigin" "-735.999939"
+                }
+                Texture
+                {
+                    "Name" "bigcrate0"
+                    "Rotation" "0"
+                    "UAxis" "1 0 0"
+                    "VAxis" "0 0 -1"
+                    "XScale" "0.375"
+                    "XShift" "469.333344"
+                    "YScale" "0.375"
+                    "YShift" "85.3333359"
+                }
+                Vertex
+                {
+                    "Position" "-176 735.9999 32"
+                }
+                Vertex
+                {
+                    "Position" "-128 735.9999 32"
+                }
+                Vertex
+                {
+                    "Position" "-128 735.9999 -16"
+                }
+                Vertex
+                {
+                    "Position" "-176 735.9999 -16"
+                }
+            }
+            Face
+            {
+                "ID" "2803"
+                Plane
+                {
+                    "Normal" "1 0 0"
+                    "DistanceFromOrigin" "-128"
+                }
+                Texture
+                {
+                    "Name" "bigcrate0"
+                    "Rotation" "0"
+                    "UAxis" "0 1 0"
+                    "VAxis" "0 0 -1"
+                    "XScale" "0.375000477"
+                    "XShift" "-1962.66406"
+                    "YScale" "0.375"
+                    "YShift" "85.3333359"
+                }
+                Vertex
+                {
+                    "Position" "-128 735.9999 32"
+                }
+                Vertex
+                {
+                    "Position" "-128 784 32"
+                }
+                Vertex
+                {
+                    "Position" "-128 784 -16"
+                }
+                Vertex
+                {
+                    "Position" "-128 735.9999 -16"
+                }
+            }
+            Face
+            {
+                "ID" "2804"
+                Plane
+                {
+                    "Normal" "0 0 1"
+                    "DistanceFromOrigin" "32"
+                }
+                Texture
+                {
+                    "Name" "bigcrate0"
+                    "Rotation" "0"
+                    "UAxis" "1 0 0"
+                    "VAxis" "0 -1 0"
+                    "XScale" "0.375"
+                    "XShift" "469.333344"
+                    "YScale" "0.375000477"
+                    "YShift" "2090.664"
+                }
+                Vertex
+                {
+                    "Position" "-176 784 32"
+                }
+                Vertex
+                {
+                    "Position" "-128 784 32"
+                }
+                Vertex
+                {
+                    "Position" "-128 735.9999 32"
+                }
+                Vertex
+                {
+                    "Position" "-176 735.9999 32"
+                }
+            }
+            Face
+            {
+                "ID" "2800"
+                Plane
+                {
+                    "Normal" "0 1 0"
+                    "DistanceFromOrigin" "784"
+                }
+                Texture
+                {
+                    "Name" "bigcrate0"
+                    "Rotation" "0"
+                    "UAxis" "-1 0 0"
+                    "VAxis" "0 0 -1"
+                    "XScale" "0.375"
+                    "XShift" "-341.333344"
+                    "YScale" "0.375"
+                    "YShift" "85.3333359"
+                }
+                Vertex
+                {
+                    "Position" "-128 784 32"
+                }
+                Vertex
+                {
+                    "Position" "-176 784 32"
+                }
+                Vertex
+                {
+                    "Position" "-176 784 -16"
+                }
+                Vertex
+                {
+                    "Position" "-128 784 -16"
+                }
+            }
+            Face
+            {
+                "ID" "2799"
+                Plane
+                {
+                    "Normal" "-1 0 0"
+                    "DistanceFromOrigin" "176"
+                }
+                Texture
+                {
+                    "Name" "bigcrate0"
+                    "Rotation" "0"
+                    "UAxis" "0 -1 0"
+                    "VAxis" "0 0 -1"
+                    "XScale" "0.375000477"
+                    "XShift" "2090.664"
+                    "YScale" "0.375"
+                    "YShift" "85.3333359"
+                }
+                Vertex
+                {
+                    "Position" "-176 784 32"
+                }
+                Vertex
+                {
+                    "Position" "-176 735.9999 32"
+                }
+                Vertex
+                {
+                    "Position" "-176 735.9999 -16"
+                }
+                Vertex
+                {
+                    "Position" "-176 784 -16"
+                }
+            }
+        }
+        Solid
+        {
+            "ID" "480"
+            "IsSelected" "False"
+            "ParentID" "1"
+            ObjectColor
+            {
+                "Color" "0 155 151"
+            }
+            Face
+            {
+                "ID" "2805"
+                Plane
+                {
+                    "Normal" "0 0 -1"
+                    "DistanceFromOrigin" "16"
+                }
+                Texture
+                {
+                    "Name" "null"
+                    "Rotation" "0"
+                    "UAxis" "-1 0 0"
+                    "VAxis" "0 -1 0"
+                    "XScale" "3"
+                    "XShift" "-42.6666679"
+                    "YScale" "3.00000381"
+                    "YShift" "277.333"
+                }
+                Vertex
+                {
+                    "Position" "-176 784 -16"
+                }
+                Vertex
+                {
+                    "Position" "-128 784 -16"
+                }
+                Vertex
+                {
+                    "Position" "-128 832.0001 -16"
+                }
+                Vertex
+                {
+                    "Position" "-176 832.0001 -16"
+                }
+            }
+            Face
+            {
+                "ID" "2806"
+                Plane
+                {
+                    "Normal" "0 -1 0"
+                    "DistanceFromOrigin" "-784"
+                }
+                Texture
+                {
+                    "Name" "bigcrate0"
+                    "Rotation" "0"
+                    "UAxis" "1 0 0"
+                    "VAxis" "0 0 -1"
+                    "XScale" "0.375"
+                    "XShift" "469.333344"
+                    "YScale" "0.5"
+                    "YShift" "96"
+                }
+                Vertex
+                {
+                    "Position" "-176 784 48"
+                }
+                Vertex
+                {
+                    "Position" "-128 784 48"
+                }
+                Vertex
+                {
+                    "Position" "-128 784 -16"
+                }
+                Vertex
+                {
+                    "Position" "-176 784 -16"
+                }
+            }
+            Face
+            {
+                "ID" "2807"
+                Plane
+                {
+                    "Normal" "1 0 0"
+                    "DistanceFromOrigin" "-128"
+                }
+                Texture
+                {
+                    "Name" "bigcrate0"
+                    "Rotation" "0"
+                    "UAxis" "0 1 0"
+                    "VAxis" "0 0 -1"
+                    "XScale" "0.375000477"
+                    "XShift" "-2090.664"
+                    "YScale" "0.5"
+                    "YShift" "96"
+                }
+                Vertex
+                {
+                    "Position" "-128 784 48"
+                }
+                Vertex
+                {
+                    "Position" "-128 832.0001 48"
+                }
+                Vertex
+                {
+                    "Position" "-128 832.0001 -16"
+                }
+                Vertex
+                {
+                    "Position" "-128 784 -16"
+                }
+            }
+            Face
+            {
+                "ID" "2808"
+                Plane
+                {
+                    "Normal" "0 0 1"
+                    "DistanceFromOrigin" "48"
+                }
+                Texture
+                {
+                    "Name" "bigcrate0"
+                    "Rotation" "0"
+                    "UAxis" "1 0 0"
+                    "VAxis" "0 -1 0"
+                    "XScale" "0.375"
+                    "XShift" "469.333344"
+                    "YScale" "0.375000477"
+                    "YShift" "2218.664"
+                }
+                Vertex
+                {
+                    "Position" "-176 832.0001 48"
+                }
+                Vertex
+                {
+                    "Position" "-128 832.0001 48"
+                }
+                Vertex
+                {
+                    "Position" "-128 784 48"
+                }
+                Vertex
+                {
+                    "Position" "-176 784 48"
+                }
+            }
+            Face
+            {
+                "ID" "2809"
+                Plane
+                {
+                    "Normal" "0 1 0"
+                    "DistanceFromOrigin" "832.000061"
+                }
+                Texture
+                {
+                    "Name" "bigcrate0"
+                    "Rotation" "0"
+                    "UAxis" "-1 0 0"
+                    "VAxis" "0 0 -1"
+                    "XScale" "0.375"
+                    "XShift" "-341.333344"
+                    "YScale" "0.5"
+                    "YShift" "96"
+                }
+                Vertex
+                {
+                    "Position" "-128 832.0001 48"
+                }
+                Vertex
+                {
+                    "Position" "-176 832.0001 48"
+                }
+                Vertex
+                {
+                    "Position" "-176 832.0001 -16"
+                }
+                Vertex
+                {
+                    "Position" "-128 832.0001 -16"
+                }
+            }
+            Face
+            {
+                "ID" "2810"
+                Plane
+                {
+                    "Normal" "-1 0 0"
+                    "DistanceFromOrigin" "176"
+                }
+                Texture
+                {
+                    "Name" "bigcrate0"
+                    "Rotation" "0"
+                    "UAxis" "0 -1 0"
+                    "VAxis" "0 0 -1"
+                    "XScale" "0.375000477"
+                    "XShift" "2218.664"
+                    "YScale" "0.5"
+                    "YShift" "96"
+                }
+                Vertex
+                {
+                    "Position" "-176 832.0001 48"
+                }
+                Vertex
+                {
+                    "Position" "-176 784 48"
+                }
+                Vertex
+                {
+                    "Position" "-176 784 -16"
+                }
+                Vertex
+                {
+                    "Position" "-176 832.0001 -16"
+                }
             }
         }
         Solid
@@ -40315,39 +44295,6 @@ sledge_native
                 "IsHidden" "False"
             }
         }
-        Entity
-        {
-            "ID" "254"
-            "IsSelected" "False"
-            "ParentID" "1"
-            EntityData
-            {
-                "renderfx" ""
-                "rendermode" ""
-                "renderamt" "255"
-                "rendercolor" "0 0 0"
-                "targetname" ""
-                "model" "models/trap.mdl"
-                "Name" "cycler"
-                "Flags" "0"
-            }
-            ObjectColor
-            {
-                "Color" "0 255 0"
-            }
-            Origin
-            {
-                "Location" "424 -312 48"
-            }
-            VisgroupHidden
-            {
-                "IsHidden" "False"
-            }
-            EntityModel
-            {
-                "Name" "models/trap.mdl"
-            }
-        }
         Solid
         {
             "ID" "255"
@@ -43341,11 +47288,11 @@ sledge_native
     }
     Selection
     {
-        "SelectedObjects" "454"
+        "SelectedObjects" "412"
     }
     FaceSelection
     {
-        "SelectedFaces" "392:2244,392:2239,392:2243,392:2241,392:2242,392:2240"
+        "SelectedFaces" ""
     }
     CordonBounds
     {
@@ -43365,6 +47312,6 @@ sledge_native
     }
     ActiveTexture
     {
-        "Name" "c_tnnl_ccrete"
+        "Name" "null"
     }
 }

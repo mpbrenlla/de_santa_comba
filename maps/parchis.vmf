@@ -7,7 +7,7 @@ world
     "classname" "worldspawn"
     "spawnflags" "0"
     "origin" "0 0 0"
-    "wad" "C:\Program Files (x86)\Steam\steamapps\common\Half-Life\cstrike_downloads\ship.wad;C:\Program Files (x86)\Steam\steamapps\common\Half-Life\cstrike\chateau.wad;C:\Program Files (x86)\Steam\steamapps\common\Half-Life\cstrike\cs_747.wad;C:\Program Files (x86)\Steam\steamapps\common\Half-Life\cstrike\cs_assault.wad;C:\Program Files (x86)\Steam\steamapps\common\Half-Life\cstrike\cs_havana.wad;C:\Program Files (x86)\Steam\steamapps\common\Half-Life\cstrike\de_aztec.wad;C:\Program Files (x86)\Steam\steamapps\common\Half-Life\cstrike\de_piranesi.wad;C:\Program Files (x86)\Steam\steamapps\common\Half-Life\cstrike\de_storm.wad;C:\Program Files (x86)\Steam\steamapps\common\Half-Life\cstrike\itsitaly.wad;C:\Program Files (x86)\Steam\steamapps\common\Half-Life\cstrike\n0th1ng.wad;C:\Program Files (x86)\Steam\steamapps\common\Half-Life\cstrike\torntextures.wad;C:\Users\Casa\Desktop\sledge\zhlt.wad"
+    "wad" "C:\Program Files (x86)\Steam\steamapps\common\Half-Life\cstrike_downloads\ship.wad;C:\Program Files (x86)\Steam\steamapps\common\Half-Life\cstrike\chateau.wad;C:\Program Files (x86)\Steam\steamapps\common\Half-Life\cstrike\cs_747.wad;C:\Program Files (x86)\Steam\steamapps\common\Half-Life\cstrike\cs_havana.wad;C:\Program Files (x86)\Steam\steamapps\common\Half-Life\cstrike\de_aztec.wad;C:\Program Files (x86)\Steam\steamapps\common\Half-Life\cstrike\de_piranesi.wad;C:\Program Files (x86)\Steam\steamapps\common\Half-Life\cstrike\de_storm.wad;C:\Program Files (x86)\Steam\steamapps\common\Half-Life\cstrike\itsitaly.wad;C:\Program Files (x86)\Steam\steamapps\common\Half-Life\cstrike\n0th1ng.wad;C:\Program Files (x86)\Steam\steamapps\common\Half-Life\cstrike\torntextures.wad;C:\Users\Casa\Desktop\sledge\zhlt.wad"
     editor
     {
         "color" "255 0 0"
@@ -262,132 +262,6 @@ world
         editor
         {
             "color" "0 199 129"
-            "parentid" "1"
-            "groupid" "0"
-            "visgroupshown" "1"
-            "visgroupautoshown" "1"
-        }
-    }
-    solid
-    {
-        "id" "2"
-        side
-        {
-            "id" "6"
-            "plane" "(-688.00 -960.00 0.00) (400.0001 -960.00 0.00) (400.0001 256.00 0.00)"
-            "material" "azgrnd"
-            "uaxis" "[-1.00 0.00 0.00 0.000122] 1.00"
-            "vaxis" "[0.00 -1.00 0.00 0.00] 1.00"
-            "rotation" "0"
-            "lightmapscale" "0"
-            "smoothing_groups" ""
-            vertex
-            {
-                "count" "4"
-                "vertex0" "-688.00 -960.00 0.00"
-                "vertex1" "400.0001 -960.00 0.00"
-                "vertex2" "400.0001 256.00 0.00"
-                "vertex3" "-688.00 256.00 0.00"
-            }
-        }
-        side
-        {
-            "id" "4"
-            "plane" "(400.0001 -960.00 16.00) (400.0001 256.00 16.00) (400.0001 256.00 0.00)"
-            "material" "azgrnd"
-            "uaxis" "[0.00 1.00 0.00 0.00] 1.00"
-            "vaxis" "[0.00 0.00 -1.00 0.00] 1.00"
-            "rotation" "0"
-            "lightmapscale" "0"
-            "smoothing_groups" ""
-            vertex
-            {
-                "count" "4"
-                "vertex0" "400.0001 -960.00 16.00"
-                "vertex1" "400.0001 256.00 16.00"
-                "vertex2" "400.0001 256.00 0.00"
-                "vertex3" "400.0001 -960.00 0.00"
-            }
-        }
-        side
-        {
-            "id" "3"
-            "plane" "(-688.00 256.00 16.00) (-688.00 -960.00 16.00) (-688.00 -960.00 0.00)"
-            "material" "azgrnd"
-            "uaxis" "[0.00 -1.00 0.00 0.00] 1.00"
-            "vaxis" "[0.00 0.00 -1.00 0.00] 1.00"
-            "rotation" "0"
-            "lightmapscale" "0"
-            "smoothing_groups" ""
-            vertex
-            {
-                "count" "4"
-                "vertex0" "-688.00 256.00 16.00"
-                "vertex1" "-688.00 -960.00 16.00"
-                "vertex2" "-688.00 -960.00 0.00"
-                "vertex3" "-688.00 256.00 0.00"
-            }
-        }
-        side
-        {
-            "id" "2"
-            "plane" "(400.0001 256.00 16.00) (-688.00 256.00 16.00) (-688.00 256.00 0.00)"
-            "material" "azgrnd"
-            "uaxis" "[-1.00 0.00 0.00 0.000122] 1.00"
-            "vaxis" "[0.00 0.00 -1.00 0.00] 1.00"
-            "rotation" "0"
-            "lightmapscale" "0"
-            "smoothing_groups" ""
-            vertex
-            {
-                "count" "4"
-                "vertex0" "400.0001 256.00 16.00"
-                "vertex1" "-688.00 256.00 16.00"
-                "vertex2" "-688.00 256.00 0.00"
-                "vertex3" "400.0001 256.00 0.00"
-            }
-        }
-        side
-        {
-            "id" "1"
-            "plane" "(-688.00 -960.00 16.00) (400.0001 -960.00 16.00) (400.0001 -960.00 0.00)"
-            "material" "azgrnd"
-            "uaxis" "[1.00 0.00 0.00 -0.000122] 1.00"
-            "vaxis" "[0.00 0.00 -1.00 0.00] 1.00"
-            "rotation" "0"
-            "lightmapscale" "0"
-            "smoothing_groups" ""
-            vertex
-            {
-                "count" "4"
-                "vertex0" "-688.00 -960.00 16.00"
-                "vertex1" "400.0001 -960.00 16.00"
-                "vertex2" "400.0001 -960.00 0.00"
-                "vertex3" "-688.00 -960.00 0.00"
-            }
-        }
-        side
-        {
-            "id" "5"
-            "plane" "(-688.00 256.00 16.00) (400.0001 256.00 16.00) (400.0001 -960.00 16.00)"
-            "material" "c_bldg3_2"
-            "uaxis" "[1.00 0.00 0.00 -0.000122] 1.00"
-            "vaxis" "[0.00 -1.00 0.00 0.00] 1.00"
-            "rotation" "0"
-            "lightmapscale" "0"
-            "smoothing_groups" ""
-            vertex
-            {
-                "count" "4"
-                "vertex0" "-688.00 256.00 16.00"
-                "vertex1" "400.0001 256.00 16.00"
-                "vertex2" "400.0001 -960.00 16.00"
-                "vertex3" "-688.00 -960.00 16.00"
-            }
-        }
-        editor
-        {
-            "color" "0 224 176"
             "parentid" "1"
             "groupid" "0"
             "visgroupshown" "1"
@@ -8747,7 +8621,7 @@ viewsettings
     "bSnapToGrid" "1"
     "bShowGrid" "1"
     "bShow3DGrid" "0"
-    "nGridSpacing" "4"
+    "nGridSpacing" "16"
 }
 sledge_native
 {
@@ -8758,7 +8632,7 @@ sledge_native
         "ParentID" ""
         EntityData
         {
-            "wad" "C:\Program Files (x86)\Steam\steamapps\common\Half-Life\cstrike_downloads\ship.wad;C:\Program Files (x86)\Steam\steamapps\common\Half-Life\cstrike\chateau.wad;C:\Program Files (x86)\Steam\steamapps\common\Half-Life\cstrike\cs_747.wad;C:\Program Files (x86)\Steam\steamapps\common\Half-Life\cstrike\cs_assault.wad;C:\Program Files (x86)\Steam\steamapps\common\Half-Life\cstrike\cs_havana.wad;C:\Program Files (x86)\Steam\steamapps\common\Half-Life\cstrike\de_aztec.wad;C:\Program Files (x86)\Steam\steamapps\common\Half-Life\cstrike\de_piranesi.wad;C:\Program Files (x86)\Steam\steamapps\common\Half-Life\cstrike\de_storm.wad;C:\Program Files (x86)\Steam\steamapps\common\Half-Life\cstrike\itsitaly.wad;C:\Program Files (x86)\Steam\steamapps\common\Half-Life\cstrike\n0th1ng.wad;C:\Program Files (x86)\Steam\steamapps\common\Half-Life\cstrike\torntextures.wad;C:\Users\Casa\Desktop\sledge\zhlt.wad"
+            "wad" "C:\Program Files (x86)\Steam\steamapps\common\Half-Life\cstrike_downloads\ship.wad;C:\Program Files (x86)\Steam\steamapps\common\Half-Life\cstrike\chateau.wad;C:\Program Files (x86)\Steam\steamapps\common\Half-Life\cstrike\cs_747.wad;C:\Program Files (x86)\Steam\steamapps\common\Half-Life\cstrike\cs_havana.wad;C:\Program Files (x86)\Steam\steamapps\common\Half-Life\cstrike\de_aztec.wad;C:\Program Files (x86)\Steam\steamapps\common\Half-Life\cstrike\de_piranesi.wad;C:\Program Files (x86)\Steam\steamapps\common\Half-Life\cstrike\de_storm.wad;C:\Program Files (x86)\Steam\steamapps\common\Half-Life\cstrike\itsitaly.wad;C:\Program Files (x86)\Steam\steamapps\common\Half-Life\cstrike\n0th1ng.wad;C:\Program Files (x86)\Steam\steamapps\common\Half-Life\cstrike\torntextures.wad;C:\Users\Casa\Desktop\sledge\zhlt.wad"
             "Name" "worldspawn"
             "Flags" "0"
         }
@@ -8996,7 +8870,7 @@ sledge_native
             }
             VisgroupHidden
             {
-                "IsHidden" "False"
+                "IsHidden" "True"
             }
         }
         Solid
@@ -9226,237 +9100,7 @@ sledge_native
             }
             VisgroupHidden
             {
-                "IsHidden" "False"
-            }
-        }
-        Solid
-        {
-            "ID" "2"
-            "IsSelected" "True"
-            "ParentID" "1"
-            ObjectColor
-            {
-                "Color" "0 224 176"
-            }
-            Face
-            {
-                "ID" "6"
-                Plane
-                {
-                    "Normal" "0 0 -1"
-                    "DistanceFromOrigin" "0"
-                }
-                Texture
-                {
-                    "Name" "azgrnd"
-                    "Rotation" "0"
-                    "UAxis" "-1 0 0"
-                    "VAxis" "0 -1 0"
-                    "XScale" "1"
-                    "XShift" "0.000122070313"
-                    "YScale" "1"
-                    "YShift" "0"
-                }
-                Vertex
-                {
-                    "Position" "-688 -960 0"
-                }
-                Vertex
-                {
-                    "Position" "400.0001 -960 0"
-                }
-                Vertex
-                {
-                    "Position" "400.0001 256 0"
-                }
-                Vertex
-                {
-                    "Position" "-688 256 0"
-                }
-            }
-            Face
-            {
-                "ID" "4"
-                Plane
-                {
-                    "Normal" "1 0 0"
-                    "DistanceFromOrigin" "400.000122"
-                }
-                Texture
-                {
-                    "Name" "azgrnd"
-                    "Rotation" "0"
-                    "UAxis" "0 1 0"
-                    "VAxis" "0 0 -1"
-                    "XScale" "1"
-                    "XShift" "0"
-                    "YScale" "1"
-                    "YShift" "0"
-                }
-                Vertex
-                {
-                    "Position" "400.0001 -960 16"
-                }
-                Vertex
-                {
-                    "Position" "400.0001 256 16"
-                }
-                Vertex
-                {
-                    "Position" "400.0001 256 0"
-                }
-                Vertex
-                {
-                    "Position" "400.0001 -960 0"
-                }
-            }
-            Face
-            {
-                "ID" "3"
-                Plane
-                {
-                    "Normal" "-1 0 0"
-                    "DistanceFromOrigin" "688"
-                }
-                Texture
-                {
-                    "Name" "azgrnd"
-                    "Rotation" "0"
-                    "UAxis" "0 -1 0"
-                    "VAxis" "0 0 -1"
-                    "XScale" "1"
-                    "XShift" "0"
-                    "YScale" "1"
-                    "YShift" "0"
-                }
-                Vertex
-                {
-                    "Position" "-688 256 16"
-                }
-                Vertex
-                {
-                    "Position" "-688 -960 16"
-                }
-                Vertex
-                {
-                    "Position" "-688 -960 0"
-                }
-                Vertex
-                {
-                    "Position" "-688 256 0"
-                }
-            }
-            Face
-            {
-                "ID" "2"
-                Plane
-                {
-                    "Normal" "0 1 0"
-                    "DistanceFromOrigin" "256"
-                }
-                Texture
-                {
-                    "Name" "azgrnd"
-                    "Rotation" "0"
-                    "UAxis" "-1 0 0"
-                    "VAxis" "0 0 -1"
-                    "XScale" "1"
-                    "XShift" "0.000122070313"
-                    "YScale" "1"
-                    "YShift" "0"
-                }
-                Vertex
-                {
-                    "Position" "400.0001 256 16"
-                }
-                Vertex
-                {
-                    "Position" "-688 256 16"
-                }
-                Vertex
-                {
-                    "Position" "-688 256 0"
-                }
-                Vertex
-                {
-                    "Position" "400.0001 256 0"
-                }
-            }
-            Face
-            {
-                "ID" "1"
-                Plane
-                {
-                    "Normal" "0 -1 0"
-                    "DistanceFromOrigin" "960"
-                }
-                Texture
-                {
-                    "Name" "azgrnd"
-                    "Rotation" "0"
-                    "UAxis" "1 0 0"
-                    "VAxis" "0 0 -1"
-                    "XScale" "1"
-                    "XShift" "-0.000122070313"
-                    "YScale" "1"
-                    "YShift" "0"
-                }
-                Vertex
-                {
-                    "Position" "-688 -960 16"
-                }
-                Vertex
-                {
-                    "Position" "400.0001 -960 16"
-                }
-                Vertex
-                {
-                    "Position" "400.0001 -960 0"
-                }
-                Vertex
-                {
-                    "Position" "-688 -960 0"
-                }
-            }
-            VisgroupHidden
-            {
-                "IsHidden" "False"
-            }
-            Face
-            {
-                "ID" "5"
-                Plane
-                {
-                    "Normal" "0 0 1"
-                    "DistanceFromOrigin" "16"
-                }
-                Texture
-                {
-                    "Name" "c_bldg3_2"
-                    "Rotation" "0"
-                    "UAxis" "1 0 0"
-                    "VAxis" "0 -1 0"
-                    "XScale" "1"
-                    "XShift" "-0.000122070313"
-                    "YScale" "1"
-                    "YShift" "0"
-                }
-                Vertex
-                {
-                    "Position" "-688 256 16"
-                }
-                Vertex
-                {
-                    "Position" "400.0001 256 16"
-                }
-                Vertex
-                {
-                    "Position" "400.0001 -960 16"
-                }
-                Vertex
-                {
-                    "Position" "-688 -960 16"
-                }
+                "IsHidden" "True"
             }
         }
         Solid
@@ -9686,7 +9330,7 @@ sledge_native
             }
             VisgroupHidden
             {
-                "IsHidden" "False"
+                "IsHidden" "True"
             }
         }
         Solid
@@ -9916,7 +9560,7 @@ sledge_native
             }
             VisgroupHidden
             {
-                "IsHidden" "False"
+                "IsHidden" "True"
             }
         }
         Solid
@@ -10146,7 +9790,7 @@ sledge_native
             }
             VisgroupHidden
             {
-                "IsHidden" "False"
+                "IsHidden" "True"
             }
         }
         Entity
@@ -10403,7 +10047,7 @@ sledge_native
             }
             VisgroupHidden
             {
-                "IsHidden" "False"
+                "IsHidden" "True"
             }
         }
         Solid
@@ -10633,7 +10277,7 @@ sledge_native
             }
             VisgroupHidden
             {
-                "IsHidden" "False"
+                "IsHidden" "True"
             }
         }
         Solid
@@ -10863,7 +10507,7 @@ sledge_native
             }
             VisgroupHidden
             {
-                "IsHidden" "False"
+                "IsHidden" "True"
             }
         }
         Solid
@@ -11093,7 +10737,7 @@ sledge_native
             }
             VisgroupHidden
             {
-                "IsHidden" "False"
+                "IsHidden" "True"
             }
         }
         Solid
@@ -11323,13 +10967,13 @@ sledge_native
             }
             VisgroupHidden
             {
-                "IsHidden" "False"
+                "IsHidden" "True"
             }
         }
         Solid
         {
             "ID" "24"
-            "IsSelected" "False"
+            "IsSelected" "True"
             "ParentID" "1"
             ObjectColor
             {
@@ -11845,7 +11489,7 @@ sledge_native
                 Plane
                 {
                     "Normal" "0 1 0"
-                    "DistanceFromOrigin" "1040.00012"
+                    "DistanceFromOrigin" "1040"
                 }
                 Texture
                 {
@@ -11881,7 +11525,7 @@ sledge_native
                 Plane
                 {
                     "Normal" "-1 0 0"
-                    "DistanceFromOrigin" "704.000061"
+                    "DistanceFromOrigin" "704.0001"
                 }
                 Texture
                 {
@@ -11917,7 +11561,7 @@ sledge_native
                 Plane
                 {
                     "Normal" "1 0 0"
-                    "DistanceFromOrigin" "415.999969"
+                    "DistanceFromOrigin" "416"
                 }
                 Texture
                 {
@@ -11946,10 +11590,6 @@ sledge_native
                 {
                     "Position" "416 -976 -96"
                 }
-            }
-            VisgroupHidden
-            {
-                "IsHidden" "False"
             }
             Face
             {
@@ -11986,6 +11626,10 @@ sledge_native
                 {
                     "Position" "416 -976 -96"
                 }
+            }
+            VisgroupHidden
+            {
+                "IsHidden" "True"
             }
         }
         Solid
@@ -12111,7 +11755,7 @@ sledge_native
                 Plane
                 {
                     "Normal" "1 0 0"
-                    "DistanceFromOrigin" "367.999969"
+                    "DistanceFromOrigin" "368"
                 }
                 Texture
                 {
@@ -12213,6 +11857,13 @@ sledge_native
                     "Position" "-512 -848 16"
                 }
             }
+            VisgroupHidden
+            {
+                "IsHidden" "False"
+            }
+            QuickHidden
+            {
+            }
         }
         Solid
         {
@@ -12229,7 +11880,7 @@ sledge_native
                 Plane
                 {
                     "Normal" "0 -1 0"
-                    "DistanceFromOrigin" "847.999939"
+                    "DistanceFromOrigin" "847.9999"
                 }
                 Texture
                 {
@@ -12301,7 +11952,7 @@ sledge_native
                 Plane
                 {
                     "Normal" "-1 0 0"
-                    "DistanceFromOrigin" "-368.000031"
+                    "DistanceFromOrigin" "-368"
                 }
                 Texture
                 {
@@ -12337,7 +11988,7 @@ sledge_native
                 Plane
                 {
                     "Normal" "1 0 0"
-                    "DistanceFromOrigin" "384.000031"
+                    "DistanceFromOrigin" "384"
                 }
                 Texture
                 {
@@ -12438,6 +12089,13 @@ sledge_native
                 {
                     "Position" "368 0 16"
                 }
+            }
+            VisgroupHidden
+            {
+                "IsHidden" "False"
+            }
+            QuickHidden
+            {
             }
         }
         Solid
@@ -12563,7 +12221,7 @@ sledge_native
                 Plane
                 {
                     "Normal" "1 0 0"
-                    "DistanceFromOrigin" "191.999969"
+                    "DistanceFromOrigin" "192"
                 }
                 Texture
                 {
@@ -12665,11 +12323,18 @@ sledge_native
                     "Position" "-688 0 16"
                 }
             }
+            VisgroupHidden
+            {
+                "IsHidden" "False"
+            }
+            QuickHidden
+            {
+            }
         }
         Solid
         {
             "ID" "33"
-            "IsSelected" "False"
+            "IsSelected" "True"
             "ParentID" "1"
             ObjectColor
             {
@@ -13121,11 +12786,18 @@ sledge_native
                     "Position" "320 0 16"
                 }
             }
+            VisgroupHidden
+            {
+                "IsHidden" "False"
+            }
+            QuickHidden
+            {
+            }
         }
         Solid
         {
             "ID" "172"
-            "IsSelected" "False"
+            "IsSelected" "True"
             "ParentID" "1"
             ObjectColor
             {
@@ -13209,7 +12881,7 @@ sledge_native
                 Plane
                 {
                     "Normal" "-1 0 0"
-                    "DistanceFromOrigin" "352.000031"
+                    "DistanceFromOrigin" "352"
                 }
                 Texture
                 {
@@ -13245,7 +12917,7 @@ sledge_native
                 Plane
                 {
                     "Normal" "1 0 0"
-                    "DistanceFromOrigin" "104.000015"
+                    "DistanceFromOrigin" "104"
                 }
                 Texture
                 {
@@ -13347,11 +13019,15 @@ sledge_native
                     "Position" "-352 -656 16"
                 }
             }
+            VisgroupHidden
+            {
+                "IsHidden" "False"
+            }
         }
         Solid
         {
             "ID" "173"
-            "IsSelected" "False"
+            "IsSelected" "True"
             "ParentID" "1"
             ObjectColor
             {
@@ -13471,7 +13147,7 @@ sledge_native
                 Plane
                 {
                     "Normal" "1 0 0"
-                    "DistanceFromOrigin" "104.000046"
+                    "DistanceFromOrigin" "104"
                 }
                 Texture
                 {
@@ -13573,11 +13249,15 @@ sledge_native
                     "Position" "-352 -224 16"
                 }
             }
+            VisgroupHidden
+            {
+                "IsHidden" "False"
+            }
         }
         Solid
         {
             "ID" "39"
-            "IsSelected" "False"
+            "IsSelected" "True"
             "ParentID" "1"
             ObjectColor
             {
@@ -13983,7 +13663,7 @@ sledge_native
         Solid
         {
             "ID" "40"
-            "IsSelected" "False"
+            "IsSelected" "True"
             "ParentID" "1"
             ObjectColor
             {
@@ -14389,7 +14069,7 @@ sledge_native
         Solid
         {
             "ID" "41"
-            "IsSelected" "False"
+            "IsSelected" "True"
             "ParentID" "1"
             ObjectColor
             {
@@ -14795,7 +14475,7 @@ sledge_native
         Solid
         {
             "ID" "180"
-            "IsSelected" "False"
+            "IsSelected" "True"
             "ParentID" "1"
             Face
             {
@@ -14809,7 +14489,7 @@ sledge_native
                 {
                     "Name" "azgrnd"
                     "Rotation" "0"
-                    "UAxis" "0.9486839 0 -0.3162258"
+                    "UAxis" "0.948684 0 -0.3162258"
                     "VAxis" "0 -1 0"
                     "XScale" "1"
                     "XShift" "-96.00001"
@@ -15017,11 +14697,15 @@ sledge_native
                     "Position" "104 -672 16"
                 }
             }
+            VisgroupHidden
+            {
+                "IsHidden" "False"
+            }
         }
         Solid
         {
             "ID" "183"
-            "IsSelected" "False"
+            "IsSelected" "True"
             "ParentID" "1"
             Face
             {
@@ -15199,6 +14883,10 @@ sledge_native
                     "Position" "128 -672 40"
                 }
             }
+            VisgroupHidden
+            {
+                "IsHidden" "False"
+            }
         }
         Entity
         {
@@ -15230,7 +14918,7 @@ sledge_native
         Solid
         {
             "ID" "185"
-            "IsSelected" "False"
+            "IsSelected" "True"
             "ParentID" "1"
             Face
             {
@@ -15408,11 +15096,15 @@ sledge_native
                     "Position" "104 -672 48"
                 }
             }
+            VisgroupHidden
+            {
+                "IsHidden" "False"
+            }
         }
         Solid
         {
             "ID" "187"
-            "IsSelected" "False"
+            "IsSelected" "True"
             "ParentID" "1"
             Face
             {
@@ -15590,11 +15282,15 @@ sledge_native
                     "Position" "152 -672 32"
                 }
             }
+            VisgroupHidden
+            {
+                "IsHidden" "False"
+            }
         }
         Solid
         {
             "ID" "189"
-            "IsSelected" "False"
+            "IsSelected" "True"
             "ParentID" "1"
             Face
             {
@@ -15771,6 +15467,10 @@ sledge_native
                 {
                     "Position" "176 -672 24"
                 }
+            }
+            VisgroupHidden
+            {
+                "IsHidden" "False"
             }
         }
         Solid
@@ -15954,11 +15654,15 @@ sledge_native
                     "Position" "176 -672 16"
                 }
             }
+            VisgroupHidden
+            {
+                "IsHidden" "True"
+            }
         }
         Solid
         {
             "ID" "196"
-            "IsSelected" "False"
+            "IsSelected" "True"
             "ParentID" "1"
             Face
             {
@@ -15972,7 +15676,7 @@ sledge_native
                 {
                     "Name" "azgrnd"
                     "Rotation" "0"
-                    "UAxis" "0.948684 0 -0.3162254"
+                    "UAxis" "0.9486841 0 -0.3162254"
                     "VAxis" "0 -1 0"
                     "XScale" "1"
                     "XShift" "-96"
@@ -16180,6 +15884,10 @@ sledge_native
                     "Position" "176 -224 16"
                 }
             }
+            VisgroupHidden
+            {
+                "IsHidden" "False"
+            }
         }
         Solid
         {
@@ -16362,11 +16070,15 @@ sledge_native
                     "Position" "176 -224 16"
                 }
             }
+            VisgroupHidden
+            {
+                "IsHidden" "True"
+            }
         }
         Solid
         {
             "ID" "199"
-            "IsSelected" "False"
+            "IsSelected" "True"
             "ParentID" "1"
             Face
             {
@@ -16596,7 +16308,7 @@ sledge_native
         Solid
         {
             "ID" "201"
-            "IsSelected" "False"
+            "IsSelected" "True"
             "ParentID" "1"
             Face
             {
@@ -16826,7 +16538,7 @@ sledge_native
         Solid
         {
             "ID" "203"
-            "IsSelected" "False"
+            "IsSelected" "True"
             "ParentID" "1"
             Face
             {
@@ -16913,7 +16625,7 @@ sledge_native
                     "Name" "docks_yel2"
                     "Rotation" "0"
                     "UAxis" "1 0 0"
-                    "VAxis" "0 0.5710677 0.8209029"
+                    "VAxis" "0 0.5710678 0.8209029"
                     "XScale" "1"
                     "XShift" "-136"
                     "YScale" "1"
@@ -16985,7 +16697,7 @@ sledge_native
                     "Name" "docks_yel2"
                     "Rotation" "0"
                     "UAxis" "-1 0 0"
-                    "VAxis" "0 -0.5710677 0.8209029"
+                    "VAxis" "0 -0.5710678 0.8209029"
                     "XScale" "1"
                     "XShift" "136"
                     "YScale" "1"
@@ -17056,7 +16768,7 @@ sledge_native
         Solid
         {
             "ID" "205"
-            "IsSelected" "False"
+            "IsSelected" "True"
             "ParentID" "1"
             Face
             {
@@ -17286,7 +16998,7 @@ sledge_native
         Solid
         {
             "ID" "206"
-            "IsSelected" "False"
+            "IsSelected" "True"
             "ParentID" "1"
             Face
             {
@@ -17464,11 +17176,15 @@ sledge_native
                     "Position" "-376 -224 40"
                 }
             }
+            VisgroupHidden
+            {
+                "IsHidden" "False"
+            }
         }
         Solid
         {
             "ID" "207"
-            "IsSelected" "False"
+            "IsSelected" "True"
             "ParentID" "1"
             Face
             {
@@ -17646,11 +17362,15 @@ sledge_native
                     "Position" "-352 -224 48"
                 }
             }
+            VisgroupHidden
+            {
+                "IsHidden" "False"
+            }
         }
         Solid
         {
             "ID" "208"
-            "IsSelected" "False"
+            "IsSelected" "True"
             "ParentID" "1"
             Face
             {
@@ -17828,11 +17548,15 @@ sledge_native
                     "Position" "-400 -224 32"
                 }
             }
+            VisgroupHidden
+            {
+                "IsHidden" "False"
+            }
         }
         Solid
         {
             "ID" "209"
-            "IsSelected" "False"
+            "IsSelected" "True"
             "ParentID" "1"
             Face
             {
@@ -18009,6 +17733,10 @@ sledge_native
                 {
                     "Position" "-424 -224 24"
                 }
+            }
+            VisgroupHidden
+            {
+                "IsHidden" "False"
             }
         }
         Solid
@@ -18192,11 +17920,15 @@ sledge_native
                     "Position" "-424 -672 24"
                 }
             }
+            VisgroupHidden
+            {
+                "IsHidden" "True"
+            }
         }
         Solid
         {
             "ID" "211"
-            "IsSelected" "False"
+            "IsSelected" "True"
             "ParentID" "1"
             Face
             {
@@ -18418,6 +18150,10 @@ sledge_native
                     "Position" "-352 -672 48"
                 }
             }
+            VisgroupHidden
+            {
+                "IsHidden" "False"
+            }
         }
         Solid
         {
@@ -18600,11 +18336,15 @@ sledge_native
                     "Position" "-448 -224 16"
                 }
             }
+            VisgroupHidden
+            {
+                "IsHidden" "True"
+            }
         }
         Solid
         {
             "ID" "213"
-            "IsSelected" "False"
+            "IsSelected" "True"
             "ParentID" "1"
             Face
             {
@@ -18825,6 +18565,10 @@ sledge_native
                 {
                     "Position" "-424 -224 24"
                 }
+            }
+            VisgroupHidden
+            {
+                "IsHidden" "False"
             }
         }
         Solid
@@ -19052,6 +18796,13 @@ sledge_native
                     "Position" "-640 -16 16"
                 }
             }
+            VisgroupHidden
+            {
+                "IsHidden" "False"
+            }
+            QuickHidden
+            {
+            }
         }
         Solid
         {
@@ -19212,7 +18963,7 @@ sledge_native
                 Plane
                 {
                     "Normal" "0 0 1"
-                    "DistanceFromOrigin" "63.9999962"
+                    "DistanceFromOrigin" "64"
                 }
                 Texture
                 {
@@ -19277,6 +19028,13 @@ sledge_native
                 {
                     "Position" "-576 -16 16"
                 }
+            }
+            VisgroupHidden
+            {
+                "IsHidden" "False"
+            }
+            QuickHidden
+            {
             }
         }
         Solid
@@ -19504,6 +19262,13 @@ sledge_native
                     "Position" "-84 -780 16"
                 }
             }
+            VisgroupHidden
+            {
+                "IsHidden" "False"
+            }
+            QuickHidden
+            {
+            }
         }
         Solid
         {
@@ -19664,7 +19429,7 @@ sledge_native
                 Plane
                 {
                     "Normal" "0 0 1"
-                    "DistanceFromOrigin" "63.9999962"
+                    "DistanceFromOrigin" "64"
                 }
                 Texture
                 {
@@ -19729,6 +19494,13 @@ sledge_native
                 {
                     "Position" "-20 -788 16"
                 }
+            }
+            VisgroupHidden
+            {
+                "IsHidden" "False"
+            }
+            QuickHidden
+            {
             }
         }
         Solid
@@ -20188,7 +19960,7 @@ sledge_native
             }
             VisgroupHidden
             {
-                "IsHidden" "False"
+                "IsHidden" "True"
             }
         }
         Solid
@@ -20418,7 +20190,7 @@ sledge_native
             }
             VisgroupHidden
             {
-                "IsHidden" "False"
+                "IsHidden" "True"
             }
         }
         Solid
@@ -20648,7 +20420,7 @@ sledge_native
             }
             VisgroupHidden
             {
-                "IsHidden" "False"
+                "IsHidden" "True"
             }
         }
         Solid
@@ -20878,7 +20650,7 @@ sledge_native
             }
             VisgroupHidden
             {
-                "IsHidden" "False"
+                "IsHidden" "True"
             }
         }
         Solid
@@ -21108,7 +20880,7 @@ sledge_native
             }
             VisgroupHidden
             {
-                "IsHidden" "False"
+                "IsHidden" "True"
             }
         }
         Solid
@@ -21338,7 +21110,7 @@ sledge_native
             }
             VisgroupHidden
             {
-                "IsHidden" "False"
+                "IsHidden" "True"
             }
         }
         Solid
@@ -21428,7 +21200,7 @@ sledge_native
                 Plane
                 {
                     "Normal" "1 0 0"
-                    "DistanceFromOrigin" "423.999969"
+                    "DistanceFromOrigin" "424"
                 }
                 Texture
                 {
@@ -21493,10 +21265,6 @@ sledge_native
                 {
                     "Position" "-736 1040 336"
                 }
-            }
-            VisgroupHidden
-            {
-                "IsHidden" "False"
             }
             Face
             {
@@ -21569,6 +21337,10 @@ sledge_native
                 {
                     "Position" "424 1040 -96"
                 }
+            }
+            VisgroupHidden
+            {
+                "IsHidden" "True"
             }
         }
         Solid
@@ -21798,7 +21570,7 @@ sledge_native
             }
             VisgroupHidden
             {
-                "IsHidden" "False"
+                "IsHidden" "True"
             }
         }
         Solid
@@ -22028,7 +21800,7 @@ sledge_native
             }
             VisgroupHidden
             {
-                "IsHidden" "False"
+                "IsHidden" "True"
             }
         }
         Solid
@@ -22258,7 +22030,7 @@ sledge_native
             }
             VisgroupHidden
             {
-                "IsHidden" "False"
+                "IsHidden" "True"
             }
         }
         Solid
@@ -22488,7 +22260,7 @@ sledge_native
             }
             VisgroupHidden
             {
-                "IsHidden" "False"
+                "IsHidden" "True"
             }
         }
         Solid
@@ -22718,7 +22490,7 @@ sledge_native
             }
             VisgroupHidden
             {
-                "IsHidden" "False"
+                "IsHidden" "True"
             }
         }
         Solid
@@ -22910,10 +22682,6 @@ sledge_native
                     "Position" "-712 1040 336"
                 }
             }
-            VisgroupHidden
-            {
-                "IsHidden" "False"
-            }
             Face
             {
                 "ID" "665"
@@ -22949,6 +22717,10 @@ sledge_native
                 {
                     "Position" "-704 1040 -96"
                 }
+            }
+            VisgroupHidden
+            {
+                "IsHidden" "True"
             }
         }
         Solid
@@ -23178,7 +22950,7 @@ sledge_native
             }
             VisgroupHidden
             {
-                "IsHidden" "False"
+                "IsHidden" "True"
             }
         }
         Solid
@@ -23408,7 +23180,7 @@ sledge_native
             }
             VisgroupHidden
             {
-                "IsHidden" "False"
+                "IsHidden" "True"
             }
         }
         Solid
@@ -23638,7 +23410,7 @@ sledge_native
             }
             VisgroupHidden
             {
-                "IsHidden" "False"
+                "IsHidden" "True"
             }
         }
         Solid
@@ -23868,7 +23640,7 @@ sledge_native
             }
             VisgroupHidden
             {
-                "IsHidden" "False"
+                "IsHidden" "True"
             }
         }
         Solid
@@ -24098,7 +23870,7 @@ sledge_native
             }
             VisgroupHidden
             {
-                "IsHidden" "False"
+                "IsHidden" "True"
             }
         }
         Solid
@@ -24328,7 +24100,7 @@ sledge_native
             }
             VisgroupHidden
             {
-                "IsHidden" "False"
+                "IsHidden" "True"
             }
         }
         Solid
@@ -24558,17 +24330,17 @@ sledge_native
             }
             VisgroupHidden
             {
-                "IsHidden" "False"
+                "IsHidden" "True"
             }
         }
     }
     Selection
     {
-        "SelectedObjects" "2"
+        "SelectedObjects" "24,33,172,173,39,40,41,180,183,185,187,189,196,199,201,203,205,206,207,208,209,211,213"
     }
     FaceSelection
     {
-        "SelectedFaces" ""
+        "SelectedFaces" "24:130,24:131,24:132,24:133,24:134,24:135,24:136,24:137,24:138,24:139,33:184,33:185,33:186,33:187,33:188,33:189,172:966,172:967,172:968,172:969,172:970,172:971,173:972,173:973,173:974,173:975,173:976,173:977,39:240,39:241,39:242,39:243,39:244,39:245,39:246,39:247,39:248,39:249,40:250,40:251,40:252,40:253,40:254,40:255,40:256,40:257,40:258,40:259,41:260,41:261,41:262,41:263,41:264,41:265,41:266,41:267,41:268,41:269,180:1014,180:1016,180:1017,180:1018,180:1019,180:1015,183:1030,183:1034,183:1033,183:1032,183:1031,185:1040,185:1044,185:1043,185:1042,185:1041,187:1050,187:1054,187:1053,187:1052,187:1051,189:1060,189:1064,189:1063,189:1062,189:1061,196:1098,196:1099,196:1101,196:1102,196:1103,196:1100,199:1114,199:1115,199:1116,199:1117,199:1118,199:1119,201:1125,201:1126,201:1127,201:1128,201:1129,201:1130,203:1136,203:1137,203:1138,203:1139,203:1140,203:1141,205:1147,205:1148,205:1149,205:1150,205:1151,205:1152,206:1153,206:1157,206:1156,206:1154,206:1155,207:1158,207:1162,207:1161,207:1159,207:1160,208:1163,20"
     }
     Camera
     {
@@ -24600,6 +24372,6 @@ sledge_native
     }
     ActiveTexture
     {
-        "Name" "bigcrate1"
+        "Name" "cusdwlka"
     }
 }

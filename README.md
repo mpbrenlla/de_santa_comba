@@ -1,10 +1,10 @@
 # de_santa_comba
 
-## 42lineas map
+## Instalación
 
 - Copiar wad/santacomba.wad en la raíz de cstrike
 
-### wad files required
+### WADs necesarios
 
 - as_coast.wad
 - chateau.wad
